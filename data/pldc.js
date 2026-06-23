@@ -1,4 +1,8 @@
-const QUESTIONS = [
+window.SUBJECTS_DATA = window.SUBJECTS_DATA || {};
+window.SUBJECTS_DATA.pldc = {
+  name: 'Pháp Luật Đại Cương',
+  short: 'PLĐC',
+  questions: [
   {
     num: 1,
     q: "Nhà nước do giai cấp thống trị lập nên để bảo vệ quyền và lợi ích của giai cấp mình là quan điểm của học thuyết?",
@@ -3788,4 +3792,5 @@ const QUESTIONS = [
     d: "Thương lượng trực tiếp, tham gia của công đoàn, công khai, khách quan, kịp thời, thông qua trọng tài hoà giải",
     ans: "d"
   }
-];
+]
+};

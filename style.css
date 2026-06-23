@@ -78,6 +78,7 @@ body{
 }
 .card{width:100%;max-width:560px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px 32px}
 .section-label{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);opacity:.75;margin-bottom:12px}
+.empty-banner{padding:14px 16px;background:color-mix(in srgb,var(--gold) 12%,transparent);border:1px solid color-mix(in srgb,var(--gold) 35%,transparent);border-radius:10px;color:var(--text);font-size:13px;line-height:1.5;margin-bottom:20px;text-align:center}
 
 /* mode segmented control */
 .mode-tabs{display:flex;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:4px;gap:4px}

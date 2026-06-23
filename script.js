@@ -2,6 +2,13 @@
 let batchSize = 25, rangeIdx = 0, shuffleQ = false, shuffleA = false, randomMode = false;
 let quizQs = [], cur = 0, answered = false, okCount = 0, badCount = 0;
 let history = [];
+let currentSubject = 'triet_hoc';
+let splitByChapter = false;
+let currentChapter = null;
+
+function currentQs() {
+  return (SUBJECTS && SUBJECTS[currentSubject] && SUBJECTS[currentSubject].questions) || [];
+}
 
 
 // ── Utils ──
@@ -16,14 +23,43 @@ function shuffle(a) {
 }
 
 function getRanges(bs) {
-  if (bs >= QUESTIONS.length) return [{
-    start: 0, end: QUESTIONS.length,
-    label: `Tất cả — Câu 1 → ${QUESTIONS[QUESTIONS.length - 1].num} (${QUESTIONS.length} câu)`
+  const qs = currentQs();
+  if (qs.length === 0) return [];
+
+  // Chapter mode: return one entry per chapter present in the pool
+  if (splitByChapter) {
+    const titles = (SUBJECTS[currentSubject] && SUBJECTS[currentSubject].chapters) || {};
+    const order  = ['ch1', 'ch2', 'ch3', 'ch4', 'ch5'];
+    const seen   = new Set();
+    const ranges = [];
+    for (const ch of order) {
+      const count = qs.filter(q => q.chapter === ch).length;
+      if (count > 0) {
+        ranges.push({
+          start: 0, end: 0, key: ch,
+          label: `${titles[ch] || ('Chương ' + ch.replace('ch',''))}  (${count} câu)`
+        });
+        seen.add(ch);
+      }
+    }
+    // Any chapter ids not in the standard order
+    for (const q of qs) {
+      if (q.chapter && !seen.has(q.chapter)) {
+        const count = qs.filter(x => x.chapter === q.chapter).length;
+        ranges.push({ start: 0, end: 0, key: q.chapter, label: `${titles[q.chapter] || q.chapter}  (${count} câu)` });
+      }
+    }
+    return ranges;
+  }
+
+  if (bs >= qs.length) return [{
+    start: 0, end: qs.length,
+    label: `Tất cả — Câu 1 → ${qs[qs.length - 1].num} (${qs.length} câu)`
   }];
   const r = [];
-  for (let i = 0; i < QUESTIONS.length; i += bs) {
-    const end = Math.min(i + bs, QUESTIONS.length);
-    r.push({ start: i, end, label: `Câu ${QUESTIONS[i].num} → ${QUESTIONS[end - 1].num}  (${end - i} câu)` });
+  for (let i = 0; i < qs.length; i += bs) {
+    const end = Math.min(i + bs, qs.length);
+    r.push({ start: i, end, label: `Câu ${qs[i].num} → ${qs[end - 1].num}  (${end - i} câu)` });
   }
   return r;
 }
@@ -37,7 +73,11 @@ function showScreen(id) {
 
 // ── Home: batch + range ──
 function updateRangeVisibility() {
-  $('range-row').style.display = (randomMode || batchSize >= QUESTIONS.length) ? 'none' : 'block';
+  if (splitByChapter) {
+    $('range-row').style.display = 'block';
+    return;
+  }
+  $('range-row').style.display = (randomMode || batchSize >= currentQs().length) ? 'none' : 'block';
 }
 
 function buildRanges() {
@@ -47,7 +87,90 @@ function buildRanges() {
   rangeIdx = 0;
   updateRangeVisibility();
 }
-buildRanges();
+
+// ── Subjects ──
+function initSubjects() {
+  // Build subject dropdown in declared order
+  const sel = $('subject-sel');
+  const order = (typeof SUBJECT_ORDER !== 'undefined' && SUBJECT_ORDER.length)
+    ? SUBJECT_ORDER
+    : Object.keys(SUBJECTS);
+  const def = (typeof DEFAULT_SUBJECT !== 'undefined') ? DEFAULT_SUBJECT : order[0];
+
+  sel.innerHTML = order.map(k => {
+    const s = SUBJECTS[k];
+    const n = s && s.questions ? s.questions.length : 0;
+    return `<option value="${k}">${s ? s.name : k}${n ? '' : ' (chưa có dữ liệu)'}</option>`;
+  }).join('');
+
+  // Default if available, else first that has data
+  const hasData = order.filter(k => SUBJECTS[k] && SUBJECTS[k].questions.length > 0);
+  currentSubject = SUBJECTS[def] && SUBJECTS[def].questions.length > 0
+    ? def
+    : (hasData[0] || order[0]);
+  sel.value = currentSubject;
+
+  updateSubjectUI();
+}
+
+function updateSubjectUI() {
+  const qs = currentQs();
+  $('brand-count').textContent = `${qs.length} CÂU`;
+
+  // "Tất cả" button gets the current subject's total
+  const allBtn = $('count-all');
+  if (allBtn) allBtn.dataset.count = qs.length;
+
+  // "Theo chương" button: only show if any question in this subject has a chapter field
+  const chapterBtn = $('count-chapter');
+  if (chapterBtn) {
+    const hasChapters = qs.some(q => q.chapter);
+    chapterBtn.style.display = hasChapters ? '' : 'none';
+    if (!hasChapters && splitByChapter) {
+      splitByChapter = false;
+      currentChapter = null;
+    }
+  }
+
+  // Empty-state banner
+  const empty = $('empty-banner');
+  const startBtn = $('btn-start');
+  if (qs.length === 0) {
+    empty.style.display = '';
+    startBtn.disabled = true;
+    startBtn.style.opacity = '0.4';
+    startBtn.style.pointerEvents = 'none';
+    $('range-row').style.display = 'none';
+  } else {
+    empty.style.display = 'none';
+    startBtn.disabled = false;
+    startBtn.style.opacity = '';
+    startBtn.style.pointerEvents = '';
+  }
+
+  buildRanges();
+}
+
+$('subject-sel').addEventListener('change', e => {
+  currentSubject = e.target.value;
+  // Reset chapter mode when switching subjects
+  splitByChapter = false;
+  currentChapter = null;
+  // Clamp batchSize to new subject size
+  const qs = currentQs();
+  if (batchSize > qs.length && qs.length > 0) {
+    // Reset to first fixed option
+    const firstFixed = document.querySelector('.count-btn:not(#count-all):not(#count-chapter)');
+    if (firstFixed) {
+      batchSize = parseInt(firstFixed.dataset.count);
+      document.querySelectorAll('.count-btn').forEach(b => b.classList.remove('active'));
+      firstFixed.classList.add('active');
+    }
+  }
+  updateSubjectUI();
+});
+
+initSubjects();
 
 document.querySelectorAll('.mode-tab').forEach(tab => {
   tab.addEventListener('click', () => {
@@ -72,29 +195,64 @@ document.querySelectorAll('.count-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.count-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    batchSize = parseInt(btn.dataset.count);
-    if (randomMode) {
+    const v = btn.dataset.count;
+    if (v === 'chapter') {
+      // Split-by-chapter mode: repopulate range-sel with chapters
+      splitByChapter = true;
+      currentChapter = null;
+      buildRanges();
       updateRangeVisibility();
     } else {
-      buildRanges();
+      splitByChapter = false;
+      currentChapter = null;
+      batchSize = parseInt(v);
+      if (randomMode) {
+        updateRangeVisibility();
+      } else {
+        buildRanges();
+      }
     }
   });
 });
 
-$('range-sel').addEventListener('change', e => { rangeIdx = parseInt(e.target.value); });
+$('range-sel').addEventListener('change', e => {
+  rangeIdx = parseInt(e.target.value);
+  if (splitByChapter) {
+    const ranges = getRanges(batchSize);
+    currentChapter = ranges[rangeIdx] ? ranges[rangeIdx].key : null;
+  }
+});
 $('shuf-q').addEventListener('change', e => { shuffleQ = e.target.checked; });
 $('shuf-a').addEventListener('change', e => { shuffleA = e.target.checked; });
 
 // ── Start ──
 function startQuiz() {
+  const qs = currentQs();
+  if (qs.length === 0) return;
   let batch;
-  if (randomMode) {
-    batch = shuffle(QUESTIONS).slice(0, batchSize);
+  let pool = qs;
+
+  if (splitByChapter) {
+    // Narrow pool to selected chapter
+    rangeIdx = parseInt($('range-sel').value || 0);
+    const ranges = getRanges(batchSize);
+    const range = ranges[Math.min(rangeIdx, ranges.length - 1)];
+    currentChapter = range ? range.key : null;
+    pool = currentChapter ? qs.filter(q => q.chapter === currentChapter) : qs;
+    if (randomMode) {
+      batch = shuffle(pool).slice(0, batchSize);
+    } else {
+      // Whole chapter (no sub-range slicing for v1)
+      batch = pool.slice();
+      if (shuffleQ) batch = shuffle(batch);
+    }
+  } else if (randomMode) {
+    batch = shuffle(qs).slice(0, batchSize);
   } else {
     rangeIdx = parseInt($('range-sel').value || 0);
     const ranges = getRanges(batchSize);
     const range = ranges[Math.min(rangeIdx, ranges.length - 1)];
-    batch = QUESTIONS.slice(range.start, range.end);
+    batch = qs.slice(range.start, range.end);
     if (shuffleQ) batch = shuffle(batch);
   }
 

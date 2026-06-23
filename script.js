@@ -121,16 +121,8 @@ function updateSubjectUI() {
   const allBtn = $('count-all');
   if (allBtn) allBtn.dataset.count = qs.length;
 
-  // "Theo chương" button: only show if any question in this subject has a chapter field
-  const chapterBtn = $('count-chapter');
-  if (chapterBtn) {
-    const hasChapters = qs.some(q => q.chapter);
-    chapterBtn.style.display = hasChapters ? '' : 'none';
-    if (!hasChapters && splitByChapter) {
-      splitByChapter = false;
-      currentChapter = null;
-    }
-  }
+  // "Theo chương" button visibility (depends on subject chapters + mode)
+  updateChapterBtnVisibility();
 
   // Empty-state banner
   const empty = $('empty-banner');
@@ -172,6 +164,24 @@ $('subject-sel').addEventListener('change', e => {
 
 initSubjects();
 
+function updateChapterBtnVisibility() {
+  const chapterBtn = $('count-chapter');
+  if (!chapterBtn) return;
+  // Show only when: not random mode AND subject has chapters
+  const hasChapters = currentQs().some(q => q.chapter);
+  chapterBtn.style.display = (!randomMode && hasChapters) ? '' : 'none';
+  // If we just hid it while it was active, fall back to "25"
+  if (chapterBtn.style.display === 'none' && splitByChapter) {
+    splitByChapter = false;
+    currentChapter = null;
+    batchSize = 25;
+    document.querySelectorAll('.count-btn').forEach(b => b.classList.remove('active'));
+    const first = document.querySelector('.count-btn:not(#count-all):not(#count-chapter)');
+    if (first) first.classList.add('active');
+    buildRanges();
+  }
+}
+
 document.querySelectorAll('.mode-tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
@@ -188,6 +198,7 @@ document.querySelectorAll('.mode-tab').forEach(tab => {
       $('shuf-a').checked = false;
       buildRanges();
     }
+    updateChapterBtnVisibility();
   });
 });
 

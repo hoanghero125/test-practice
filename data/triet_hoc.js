@@ -617,7 +617,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     num: 62,
     q: "Chọn một phương án đúng về phương pháp biện chứng?",
     a: "Nhận thức đối tượng ở trạng thái tĩnh, đồng nhất đối tượng với trạng thái tĩnh nhất thời đó",
-    b: "Nhận thức đối tượng ở trạng thái tĩnh, đồng nhất đối tượng với trạng thái tĩnh nhất thời đó",
+    b: "Nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng khác",
     c: "Nhận thức đối tượng trong mối liên hệ phổ biến vốn có của nó",
     d: "Cả A, B, C",
     ans: "c",
@@ -846,10 +846,10 @@ window.SUBJECTS_DATA.triet_hoc = {
   {
     num: 85,
     q: "Trong phương thức sản xuất tư bản chủ nghĩa, mâu thuẫn sâu sắc giữa lực lượng sản xuất với quan hệ sản xuất bộc lộ qua cuộc khủng hoảng kinh tế lần thứ nhất vào năm...",
-    a: "1824 Giai cấp tư sản là một lực lượng chính trị độc lập",
-    b: "1825 Giai cấp vô sản là một lực lượng chính trị - xã hội độc lập",
-    c: "1826 Phong trào vô sản là một phong trào tự giác",
-    d: "1827 Câu 86 Phong trào đấu tranh của giai cấp vô sản vào những năm 30, 40 của thế kỷ XIX chứng tỏ rằng... Giai cấp vô sản cần liên minh với địa chủ, phong kiến chống tư sản",
+    a: "1824",
+    b: "1825",
+    c: "1826",
+    d: "1827",
     ans: "b",
     chapter: "ch1",
   },
@@ -1215,16 +1215,6 @@ window.SUBJECTS_DATA.triet_hoc = {
   },
   {
     num: 122,
-    q: "Điền cụm từ đúng vào chỗ trống sau: ... là lý luận về phương pháp, là hệ thống các quan điểm, các nguyên tắc chỉ đạo con người tìm tòi, xây dựng, lựa chọn và vận dụng các phương pháp trong nhận thức và thực tiễn.",
-    a: "Triết học",
-    b: "Thế giới quan",
-    c: "Ý thức xã hội",
-    d: "Phương pháp luận",
-    ans: "d",
-    chapter: "ch1",
-  },
-  {
-    num: 123,
     q: "Chọn phương án đúng nhất: Chủ nghĩa Mác - Lênin được cấu thành từ ba bộ phận lý luận cơ bản là:",
     a: "Chủ nghĩa xã hội không tưởng, Triết học Mác - Lênin, Kinh tế chính trị học Mác - Lênin",
     b: "Triết học Mác - Lênin, Kinh tế chính trị học Mác - Lênin, Chủ nghĩa xã hội khoa học",
@@ -1234,7 +1224,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 124,
+    num: 123,
     q: "Bộ phận giữ vai trò là thế giới quan và phương pháp luận chung nhất của chủ nghĩa Mác - Lênin là:",
     a: "Triết học Mác - Lênin",
     b: "Kinh tế - chính trị học Mác - Lênin",
@@ -1244,7 +1234,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 125,
+    num: 124,
     q: "Trong chủ nghĩa Mác - Lênin, bộ phận lí luận có chức năng làm sáng tỏ bản chất và những quy luật chung nhất của mọi sự vận động, phát triển của thế giới là:",
     a: "Triết học Mác - Lênin",
     b: "Kinh tế - chính trị học Mác - Lênin",
@@ -1254,7 +1244,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 126,
+    num: 125,
     q: "Chọn phương án đúng nhất: Giai đoạn hình thành và phát triển chủ nghĩa Mác do ai thực hiện?",
     a: "C. Mác",
     b: "C. Mác và Ph. Ăngghen",
@@ -1264,7 +1254,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 127,
+    num: 126,
     q: "Chọn phương án đúng nhất: Giai đoạn bảo vệ và phát triển chủ nghĩa Mác thành chủ nghĩa Mác - Lênin do ai thực hiện?",
     a: "C. Mác",
     b: "C. Mác và Ph. Ăngghen",
@@ -1274,7 +1264,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 128,
+    num: 127,
     q: "Cuộc cách mạng công nghiệp lần thứ nhất trong phương thức sản xuất tư bản chủ nghĩa diễn ra vào...",
     a: "Cuối thế kỷ XVI",
     b: "Cuối thế kỷ XVII",
@@ -1284,17 +1274,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 129,
-    q: "Cuộc cách mạng công nghiệp lần thứ nhất trong phương thức sản xuất tư bản chủ nghĩa diễn ra đầu tiên ở quốc gia nào?",
-    a: "Anh",
-    b: "Pháp",
-    c: "Đức",
-    d: "Nga",
-    ans: "a",
-    chapter: "ch1",
-  },
-  {
-    num: 130,
+    num: 128,
     q: "Chọn phương án đúng nhất: Công lao lớn nhất của G.W.Ph. Hêghen là...",
     a: "Phê phán phương pháp siêu hình",
     b: "Phê phán phương pháp siêu hình và xây dựng phép biện chứng duy tâm dưới dạng lý luận chặt chẽ",
@@ -1304,7 +1284,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 131,
+    num: 129,
     q: "Công lao lớn nhất của L. Phoiobắc là...",
     a: "Đấu tranh chống chủ nghĩa duy vật",
     b: "Đấu tranh chống chủ nghĩa duy tâm và tôn giáo",
@@ -1314,7 +1294,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 132,
+    num: 130,
     q: "Điền từ vào chỗ trống sau: C. Mác và Ph. Ăngghen đã phê phán tính chất... trong triết học G.W.Ph. Hêghen",
     a: "Duy vật chất phác",
     b: "Duy vật siêu hình",
@@ -1324,7 +1304,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 133,
+    num: 131,
     q: "Một trong những tiền đề quan trọng cho bước chuyển biến tư tưởng của C. Mác và Ph. Ăngghen từ thế giới quan duy tâm sang thế giới quan duy vật là:",
     a: "Phép biện chứng của G.W.Ph. Héghen",
     b: "Chủ nghĩa duy vật vô thần của L. Phoiobác",
@@ -1334,7 +1314,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 134,
+    num: 132,
     q: "Cách mạng Tháng Mười Nga năm 1917 thành công đã mở ra một thời kỳ mới - thời kỳ quá độ từ... trên phạm vi quốc tế.",
     a: "Chủ nghĩa tư bản lên chủ nghĩa xã hội",
     b: "Phong kiến lên chủ nghĩa tư bản",
@@ -1344,7 +1324,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 135,
+    num: 133,
     q: "Nhà nước chuyên chính vô sản đầu tiên trong lịch sử nhân loại ra đời năm...",
     a: "1871",
     b: "1917",
@@ -1354,7 +1334,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 136,
+    num: 134,
     q: "Quan điểm cho rằng: Theo quy luật tiến hóa của lịch sử, loài người nhất định sẽ tiến đến chủ nghĩa xã hội là của...",
     a: "C. Mác",
     b: "Quốc tế Cộng sản",
@@ -1364,7 +1344,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 137,
+    num: 135,
     q: "Chọn phương án đúng nhất: Ba nguồn gốc lí luận trực tiếp cho sự ra đời của chủ nghĩa Mác là:",
     a: "Chủ nghĩa duy vật vô thần của L. Phoiobác; Lí luận về giá trị lao động của Xmit và Ricácđô; Phép biện chứng của G.W. Ph. Hêghen",
     b: "Định luật Bảo toàn và Chuyển hóa năng lượng; Triết học cổ điển Đức; Kinh tế chính trị học cổ điển Anh",
@@ -1374,7 +1354,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 138,
+    num: 136,
     q: "Chọn phương án đúng nhất: Những tiền đề khoa học tự nhiên cho sự ra đời của chủ nghĩa Mác là:",
     a: "Triết học cổ điển Đức; Định luật Bảo toàn và Chuyển hóa năng lượng; Học thuyết Tế bào",
     b: "Học thuyết Tế bào; Định luật Bảo toàn và Chuyển hóa năng lượng; Học thuyết Tiến hóa",
@@ -1384,7 +1364,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 139,
+    num: 137,
     q: "Đối tượng nghiên cứu của triết học Mác - Lênin là:",
     a: "Những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy",
     b: "Những quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa",
@@ -1394,7 +1374,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 140,
+    num: 138,
     q: "Tác phẩm nào thể hiện tập trung việc V.I. Lênin đã kế thừa và phát triển quan niệm của chủ nghĩa Mác về vật chất, về mối quan hệ giữa vật chất và ý thức, tồn tại xã hội và ý thức xã hội?",
     a: "Làm gì",
     b: "Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán",
@@ -1404,7 +1384,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 141,
+    num: 139,
     q: "Thời kỳ C. Mác và Ph. Ăngghen tiếp tục bổ sung và phát triển học thuyết của mình là:",
     a: "1838 - 1841",
     b: "1841 - 1843",
@@ -1414,7 +1394,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 142,
+    num: 140,
     q: "Thời kỳ đánh dấu bước chuyển biến tư tưởng của C. Mác và Ph. Ăngghen từ chủ nghĩa duy tâm và dân chủ cách mạng sang chủ nghĩa duy vật và chủ nghĩa cộng sản là:",
     a: "1838 - 1841",
     b: "1841 - 1843",
@@ -1424,7 +1404,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 143,
+    num: 141,
     q: "Ý thức có trước, vật chất có sau, ý thức quyết định vật chất, đây là quan điểm nào?",
     a: "Duy vật",
     b: "Duy vật chủ quan",
@@ -1434,7 +1414,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 144,
+    num: 142,
     q: "Chọn đáp án đúng nhất: Ý thức, cảm giác con người sinh ra và quyết định sự tồn tại của các sự vật. Quan điểm này mang tính chất gì?",
     a: "Duy tâm chủ quan",
     b: "Duy tâm",
@@ -1444,7 +1424,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 145,
+    num: 143,
     q: "Chọn đáp án đúng nhất: Ý niệm tuyệt đối sản sinh ra thế giới, đây là quan điểm gì?",
     a: "Duy vật",
     b: "Duy tâm chủ quan",
@@ -1454,7 +1434,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 146,
+    num: 144,
     q: "Hãy sắp xếp theo trình tự xuất hiện từ sớm nhất đến muộn nhất các hình thức thế giới quan sau:",
     a: "Tôn giáo - thần thoại - triết học.",
     b: "Thần thoại - tôn giáo - triết học.",
@@ -1464,7 +1444,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 147,
+    num: 145,
     q: "Triết học nghiên cứu thế giới như thế nào?",
     a: "Như một đối tượng vật chất cụ thể",
     b: "Như một hệ đối tượng vật chất nhất định",
@@ -1474,7 +1454,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 148,
+    num: 146,
     q: "Những nhà triết học nào xem thường kinh nghiệm, xa rời cuộc sống?",
     a: "Chủ nghĩa kinh nghiệm",
     b: "Chủ nghĩa duy vật biện chứng",
@@ -1484,7 +1464,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 149,
+    num: 147,
     q: "Khẳng định nào sau đây là đúng:",
     a: "Phép biện chứng của Hêghen là phép biện chứng duy vật",
     b: "Phép biện chứng của Hêghen là phép biện chứng tự phát",
@@ -1494,7 +1474,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 150,
+    num: 148,
     q: "Phoiobác là nhà triết học theo theo trường phái nào?",
     a: "Chủ nghĩa duy tâm khách quan",
     b: "Chủ nghĩa duy tâm chủ quan",
@@ -1504,7 +1484,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 151,
+    num: 149,
     q: "Con người sáng tạo ra thượng đế, bản tính con người là tình yêu, tôn giáo cũng là một tình yêu. Nhà triết học nào khẳng định như vậy?",
     a: "Canto",
     b: "Hêghen",
@@ -1514,7 +1494,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 152,
+    num: 150,
     q: "Ưu điểm lớn nhất của triết học cổ điển Đức là gì?",
     a: "Phát triển tư tưởng duy vật về thế giới của thế kỷ XVII – XVIII",
     b: "Khắc phục triệt để quan điểm siêu hình của chủ nghĩa duy vật cũ",
@@ -1524,7 +1504,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 153,
+    num: 151,
     q: "Chọn phương án đúng nhất: Mặt thứ nhất của vấn đề cơ bản của triết học là:",
     a: "Giữa vật chất và ý thức thì cái nào có trước, cái nào có sau, cái nào quyết định cái nào.",
     b: "Con người có khả năng nhận thức được thế giới hay không.",
@@ -1534,7 +1514,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 154,
+    num: 152,
     q: "Quan điểm: “Vật chất và ý thức là hai nguyên thể đầu tiên cùng song song tồn tại” là quan điểm của trường phái triết học nào?",
     a: "Duy vật biện chứng",
     b: "Duy tâm khách quan",
@@ -1544,7 +1524,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 155,
+    num: 153,
     q: "Ngành khoa học nào phát triển rực rỡ nhất và có ảnh hưởng lớn nhất đến phương pháp tư duy của thời kỳ cận đại?",
     a: "Toán học",
     b: "Hoá học",
@@ -1554,7 +1534,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 156,
+    num: 154,
     q: "Những trường phái triết học nào xem thường lý luận?",
     a: "Chủ nghĩa duy tâm khách quan",
     b: "Chủ nghĩa kinh viện",
@@ -1564,17 +1544,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 157,
-    q: "Những nhà triết học nào xem thường kinh nghiệm, xa rời cuộc sống?",
-    a: "Chủ nghĩa kinh nghiệm",
-    b: "Chủ nghĩa duy vật biện chứng",
-    c: "Chủ nghĩa kinh viện",
-    d: "Chủ nghĩa duy vật siêu hình",
-    ans: "c",
-    chapter: "ch1",
-  },
-  {
-    num: 158,
+    num: 155,
     q: "Ai là người sáng tạo ra hệ thống đầu tiên của chủ nghĩa duy vật siêu hình trong lịch sử triết học?",
     a: "Ph. Bêcon",
     b: "Tô mất Hốp Xơ",
@@ -1584,7 +1554,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 159,
+    num: 156,
     q: "Khi giải quyết vấn đề cơ bản của triết học, Đềcáctor đứng trên lập trường triết học nào?",
     a: "Chủ nghĩa duy vật",
     b: "Chủ nghĩa duy tâm khách quan",
@@ -1594,7 +1564,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 160,
+    num: 157,
     q: "Luận điểm Đềcáctor \"tôi tư duy vậy tôi tồn tại\" có ý nghĩa gì?",
     a: "Nhấn mạnh vai trò của tư duy, duy lý",
     b: "Nhấn mạnh vai trò của cảm giác",
@@ -1604,7 +1574,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 161,
+    num: 158,
     q: "Về mặt triết học, định luật bảo toàn và chuyển hoá năng lượng chứng minh cho quan điểm nào?",
     a: "Quan điểm siêu hình phủ nhận sự vận động.",
     b: "Quan điểm duy tâm phủ nhận sự vận động là khách quan.",
@@ -1614,7 +1584,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 162,
+    num: 159,
     q: "Ba phát minh trong khoa học tự nhiên: định luật bảo toàn và chuyển hoá năng lượng, học thuyết tế bào, học thuyết tiến hoá chứng minh thế giới vật chất có tính chất gì?",
     a: "Tính chất tách rời tính tại của thế giới vật chất.",
     b: "Tính chất biện chứng của sự vận động và phát triển của thế giới vật chất.",
@@ -1624,7 +1594,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 163,
+    num: 160,
     q: "Phát minh nào trong khoa học tự nhiên nửa đầu thế kỷ XIX vạch ra nguồn gốc tự nhiên của con người, chống lại quan điểm tôn giáo?",
     a: "Học thuyết tế bào.",
     b: "Học thuyết tiến hóa.",
@@ -1634,7 +1604,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 164,
+    num: 161,
     q: "Phát minh nào trong khoa học tự nhiên nửa đầu thế kỷ XIX vạch ra sự thống nhất giữa thế giới động vật và thực vật?",
     a: "Học thuyết tế bào.",
     b: "Học thuyết tiến hoá.",
@@ -1644,7 +1614,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 165,
+    num: 162,
     q: "Coi sự vật cảm tính là cái bóng của ý niệm. Đó là quan điểm của trường phái triết học nào?",
     a: "Chủ nghĩa duy tâm chủ quan",
     b: "Chủ nghĩa duy tâm khách quan",
@@ -1654,7 +1624,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 166,
+    num: 163,
     q: "Coi thế giới vật chất là kết quả của quá trình phát triển của ý niệm tuyệt đối là quan điểm của trường phái triết học nào?",
     a: "Chủ nghĩa duy tâm chủ quan.",
     b: "Chủ nghĩa duy tâm khách quan.",
@@ -1664,17 +1634,17 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch1",
   },
   {
-    num: 167,
+    num: 164,
     q: "Luận điểm cho: \"tồn tại tức là được cảm giác\" là của ai và thuộc lập trường triết học nào?",
     a: "Của Hêghen, thuộc lập trường của chủ nghĩa duy tâm khách quan.",
     b: "Của Béc-co-li, thuộc lập trường chủ nghĩa duy tâm chủ quan.",
     c: "Của Pla-tôn, thuộc lập trường chủ nghĩa duy tâm khách quan.",
-    d: "Của A-ri-xtốt, thuộc lập trường triết học nhị nguyên. # GỢI Ý ĐÁP ÁN | Câu 1 | D | Câu 11 | C | Câu 21 | D | Câu 31 | A | | --- | --- | --- | --- | --- | --- | --- | --- | | Câu 2 | C | Câu 12 | B | Câu 22 | A | Câu 32 | A | | Câu 3 | D | Câu 13 | A | Câu 23 | A | Câu 33 | B | | Câu 4 | D | Câu 14 | D | Câu 24 | D | Câu 34 | A | | Câu 5 | A | Câu 15 | C | Câu 25 | D | Câu 35 | A | | Câu 6 | A | Câu 16 | A | Câu 26 | C | Câu 36 | B | | Câu 7 | A | Câu 17 | C | Câu 27 | B | Câu 37 | D | | Câu 8 | D | Câu 18 | B | Câu 28 | A | Câu 38 | A | | Câu 9 | B | Câu 19 | C | Câu 29 | B | Câu 39 | C | | Câu 10 | C | Câu 20 | A | Câu 30 | B | Câu 40 | C | | Câu 41 | A | Câu 51 | B | Câu 61 | A | Câu 71 | B | | Câu 42 | B | Câu 52 | D | Câu 62 | C | Câu 72 | C | | Câu 43 | A | Câu 53 | C | Câu 63 | B | Câu 73 | B | | Câu 44 | A | Câu 54 | B | Câu 64 | B | Câu 74 | B | | Câu 45 | B | Câu 55 | A | Câu 65 | C | Câu 75 | A | | Câu 46 | C | Câu 56 | D | Câu 66 | B | Câu 76 | B | | Câu 47 | A | Câu 57 | A | Câu 67 | B | Câu 77 | D | | Câu 48 | C | Câu 58 | B | Câu 68 | B | Câu 78 | D | | Câu 49 | B | Câu 59 | B | Câu 69 | A | Câu 79 | B | | Câu 50 | B | Câu 60 | A | Câu 70 | B | Câu 80 | D | | Câu 81 | D | Câu 91 | A | Câu 101 | B | Câu 111 | C | | Câu 82 | D | Câu 92 | A | Câu 102 | A | Câu 112 | B | | Câu 83 | C | Câu 93 | B | Câu 103 | C | Câu 113 | D | | Câu 84 | A | Câu 94 | B | Câu 104 | A | Câu 114 | D | | Câu 85 | B | Câu 95 | D | Câu 105 | C | Câu 115 | C | | Câu 86 | B | Câu 96 | A | Câu 106 | B | Câu 116 | D | | Câu 87 | A | Câu 97 | C | Câu 107 | B | Câu 117 | A | | Câu 88 | A | Câu 98 | B | Câu 108 | C | Câu 118 | A | | Câu 89 | C | Câu 99 | D | Câu 109 | C | Câu 119 | A | | Câu 90 | B | Câu 100 | A | Câu 110 | B | Câu 120 | B | | Câu 121 | B | Câu 131 | B | Câu 141 | B | Câu 151 | D | | Câu 122 | B | Câu 132 | B | Câu 142 | C | Câu 152 | C | | Câu 123 | D | Câu 133 | C | Câu 143 | B | Câu 153 | C | | Câu 124 | B | Câu 134 | B | Câu 144 | C | Câu 154 | A | | Câu 125 | A | Câu 135 | A | Câu 145 | A | Câu 155 | D | | --- | --- | --- | --- | --- | --- | --- | --- | | Câu 126 | A | Câu 136 | A | Câu 146 | D | Câu 156 | D | | Câu 127 | B | Câu 137 | D | Câu 147 | B | Câu 157 | D | | Câu 128 | C | Câu 138 | C | Câu 148 | C | Câu 158 | C | | Câu 129 | C | Câu 139 | B | Câu 149 | C | Câu 159 | B | | Câu 130 | A | Câu 140 | A | Câu 150 | C | Câu 160 | D | | | | | | | | | | | Câu 161 | A | Câu 164 | B | Câu 167 | B | | | | Câu 162 | C | Câu 165 | A | Câu 168 | B | | | | Câu 163 | B | Câu 166 | B | | | | | # CHƯƠNG 2: CHỦ NGHĨA DUY VẬT BIỆN CHỨNG",
+    d: "Của A-ri-xtốt, thuộc lập trường triết học nhị nguyên.",
     ans: "b",
     chapter: "ch1",
   },
   {
-    num: 168,
+    num: 165,
     q: "Nhà triết học nào coi lửa là thực thể đầu tiên của thế giới và đó là lập trường triết học nào?",
     a: "Đê-mô-crít, - chủ nghĩa duy vật tự phát.",
     b: "Hê-ra-clít, - chủ nghĩa duy vật tự phát.",
@@ -1684,7 +1654,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 169,
+    num: 166,
     q: "Nhà triết học nào cho nguyên tử và khoảng không là thực thể đầu tiên của thế giới và đó là lập trường triết học nào?",
     a: "Đê-mô-rít, chủ nghĩa duy vật tự phát.",
     b: "Hê-ra-clít, - chủ nghĩa duy vật tự phát",
@@ -1694,7 +1664,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 170,
+    num: 167,
     q: "Đồng nhất vật chất nói chung với một vật thể hữu hình cảm tính đang tồn tại trong thế giới bên ngoài là quan điểm của trường phái triết học nào?",
     a: "Chủ nghĩa duy tâm.",
     b: "Chủ nghĩa duy vật tự phát.",
@@ -1704,7 +1674,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 171,
+    num: 168,
     q: "Đồng nhất vật chất nói chung với nguyên tử - một phần tử vật chất nhỏ nhất, đó là quan điểm của trường phái triết học nào?",
     a: "Chủ nghĩa duy vật siêu hình thế kỷ XVII - XVIII.",
     b: "Chủ nghĩa duy vật tự phát.",
@@ -1714,7 +1684,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 172,
+    num: 169,
     q: "Điểm chung trong quan niệm về vật chất của các nhà triết học duy vật thời kỳ cổ đại là:",
     a: "Đồng nhất vật chất với những dạng tồn tại cụ thể",
     b: "Đồng nhất vật chất với điện tử",
@@ -1724,7 +1694,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 173,
+    num: 170,
     q: "Theo chủ nghĩa duy vật biện chứng, tồn tại khách quan là:",
     a: "Tồn tại bên ngoài con người, độc lập với ý thức con người",
     b: "Sản phẩm của tư duy con người",
@@ -1734,7 +1704,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 174,
+    num: 171,
     q: "Theo chủ nghĩa duy vật biện chứng, thuộc tính cơ bản, phổ biến nhất của mọi dạng vật chất là:",
     a: "Tồn tại",
     b: "Tồn tại chủ quan",
@@ -1744,7 +1714,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 175,
+    num: 172,
     q: "Theo chủ nghĩa duy vật biện chứng, thế giới thống nhất ở:",
     a: "Tính chủ quan",
     b: "Sự tồn tại",
@@ -1754,7 +1724,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 176,
+    num: 173,
     q: "Đặc điểm chung của quan niệm duy vật về vật chất ở thời kỳ cổ đại là gì?",
     a: "Đồng nhất vật chất nói chung với nguyên tử.",
     b: "Đồng nhất vật chất nói chung với một dạng cụ thể hữu hình, cảm tính của vật chất.",
@@ -1764,7 +1734,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 177,
+    num: 174,
     q: "Hạn chế chung của quan niệm duy vật về vật chất ở thời kỳ cổ đại.",
     a: "Có tính chất duy tâm chủ quan.",
     b: "Có tính chất duy vật tự phát, là những phóng đoán dựa trên những tài liệu cảm tính là chủ yếu, chưa có cơ sở khoa học.",
@@ -1774,7 +1744,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 178,
+    num: 175,
     q: "Đâu là mặt tích cực trong quan niệm duy vật về vật chất ở thời kỳ cổ đại?",
     a: "Chống quan niệm máy móc siêu hình.",
     b: "Chống quan niệm duy tâm tôn giáo",
@@ -1784,7 +1754,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 179,
+    num: 176,
     q: "Đỉnh cao nhất của tư tưởng duy vật cổ đại về vật chất là ở chỗ nào?",
     a: "ở quan niệm về lửa là bản nguyên của thế giới",
     b: "ở thuyết nguyên tử của Lo-xíp và Đê-mô-crít.",
@@ -1794,7 +1764,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 180,
+    num: 177,
     q: "Điền từ đúng nhất vào chỗ trống: Theo chủ nghĩa duy vật biện chứng, vận động là thuộc tính... của vật chất.",
     a: "riêng",
     b: "cố hữu",
@@ -1804,7 +1774,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 181,
+    num: 178,
     q: "Quan điểm nào cho rằng, không gian, thời gian, vận động không liên quan với nhau và ở bên ngoài vật chất.",
     a: "Chủ nghĩa duy vật siêu hình",
     b: "Chủ nghĩa duy vật biện chứng",
@@ -1814,7 +1784,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 182,
+    num: 179,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật biện chứng, nguồn gốc của ý thức là...",
     a: "nguồn gốc tự nhiên và nguồn gốc nhận thức",
     b: "nguồn gốc tự nhiên và nguồn gốc xã hội",
@@ -1824,7 +1794,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 183,
+    num: 180,
     q: "Quan điểm nào cho rằng, “Óc tiết ra ý thức như gan tiết ra mật”?",
     a: "Chủ nghĩa duy vật tầm thường",
     b: "Chủ nghĩa duy vật biện chứng",
@@ -1834,7 +1804,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 184,
+    num: 181,
     q: "Theo chủ nghĩa duy vật biện chứng, phản ánh là thuộc tính:",
     a: "Riêng có ở con người",
     b: "Chỉ có ở các cơ thể sống",
@@ -1844,7 +1814,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 185,
+    num: 182,
     q: "Theo chủ nghĩa duy vật biện chứng: Các yếu tố cơ bản, trực tiếp tạo thành nguồn gốc xã hội của ý thức là:",
     a: "Lao động và ngôn ngữ",
     b: "Kinh tế và văn hóa",
@@ -1854,7 +1824,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 186,
+    num: 183,
     q: "Quan điểm nào cho rằng, ý thức là bản thể đầu tiên, tồn tại vĩnh viễn, là nguyên nhân sinh thành, chi phối sự tồn tại, biến đổi của toàn bộ thế giới vật chất...",
     a: "chủ nghĩa duy vật siêu hình",
     b: "chủ nghĩa duy vật biện chứng",
@@ -1864,7 +1834,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 187,
+    num: 184,
     q: "Quan điểm nào cho rằng, ý thức cũng chỉ là một dạng vật chất đặc biệt, do vật chất sản sinh ra.",
     a: "Chủ nghĩa duy vật siêu hình",
     b: "Chủ nghĩa duy vật biện chứng",
@@ -1874,7 +1844,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 188,
+    num: 185,
     q: "Quan điểm của trường phái triết học nào coi khối lượng chỉ là thuộc tính của vật chất, gắn liền với vật chất?",
     a: "Chủ nghĩa duy tâm.",
     b: "Chủ nghĩa duy vật siêu hình.",
@@ -1884,7 +1854,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 189,
+    num: 186,
     q: "Hiện tượng phóng xạ mà khoa học tự nhiên phát hiện ra chứng minh điều gì?",
     a: "Vật chất nói chung là bất biến.",
     b: "Nguyên tử là bất biến.",
@@ -1894,7 +1864,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 190,
+    num: 187,
     q: "Phát minh ra hiện tượng phóng xạ và điện tử bác bỏ quan niệm triết học nào về vật chất?",
     a: "Quan niệm duy vật siêu hình về vật chất.",
     b: "Quan niệm duy tâm về vật chất cho nguyên tử không tồn tại.",
@@ -1904,7 +1874,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 191,
+    num: 188,
     q: "Chủ nghĩa duy tâm đã lợi dụng những phát minh của khoa học tự nhiên về hiện tượng phóng xạ và điện tử để chứng minh cái gì?",
     a: "Chứng minh nguyên tử không phải là bất biến.",
     b: "Chứng minh nguyên tử biến đổi đồng nhất với vật chất mất đi.",
@@ -1914,7 +1884,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 192,
+    num: 189,
     q: "Quan niệm coi điện tử là phi vật chất thuộc lập trường triết học nào?",
     a: "Chủ nghĩa duy vật siêu hình.",
     b: "Chủ nghĩa duy tâm.",
@@ -1924,7 +1894,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 193,
+    num: 190,
     q: "Theo chủ nghĩa duy vật biện chứng, yếu tố nào đóng vai trò là nguồn gốc cơ bản, trực tiếp và quan trọng nhất quyết định sự ra đời và phát triển của ý thức?",
     a: "Mối quan hệ giữa con người với thế giới khách quan",
     b: "Bộ não người",
@@ -1934,7 +1904,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 194,
+    num: 191,
     q: "Quan điểm nào cho rằng, ý thức là hình ảnh chủ quan của thế giới khách quan?",
     a: "Chủ nghĩa duy vật siêu hình",
     b: "Chủ nghĩa duy vật biện chứng",
@@ -1944,7 +1914,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 195,
+    num: 192,
     q: "Theo chủ nghĩa duy vật biện chứng, sự tác động trở lại của ý thức đối với vật chất được thực hiện thông qua:",
     a: "Suy nghĩ của con người",
     b: "Hoạt động nhận thức của con người",
@@ -1954,7 +1924,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 196,
+    num: 193,
     q: "Nguyên tắc xuất phát từ thực tế khách quan, tôn trọng khách quan, đồng thời phát huy tính năng động chủ quan đòi hỏi trong nhận thức và thực tiễn cần tránh sai lầm:",
     a: "Nguyện biện và chiết trung",
     b: "Trì trệ, thụ động và chủ quan duy ý chí",
@@ -1964,7 +1934,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 197,
+    num: 194,
     q: "Theo V.I.Lênin những phát minh của khoa học tự nhiên cuối thế kỷ XIX đầu thế kỷ XX đã làm tiêu tan cái gì?",
     a: "Tiêu tan vật chất nói chung.",
     b: "Tiêu tan dạng tồn tại cụ thể của vật chất.",
@@ -1974,7 +1944,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 198,
+    num: 195,
     q: "Quan điểm cho rằng: nhận thức mới về nguyên tử - phát hiện ra điện tử - làm cho nguyên tử không tồn tại, thuộc lập trường triết học nào?",
     a: "Chủ nghĩa duy vật siêu hình.",
     b: "Chủ nghĩa duy tâm chủ quan.",
@@ -1984,7 +1954,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 199,
+    num: 196,
     q: "Quan điểm triết học nào cho rằng, nhận thức mới về nguyên tử chỉ bác bỏ quan niệm cũ về vật chất, không bác bỏ sự tồn tại vật chất nói chung?",
     a: "Chủ nghĩa duy vật trước Mác.",
     b: "Chủ nghĩa duy tâm.",
@@ -1994,7 +1964,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 200,
+    num: 197,
     q: "Định nghĩa về vật chất của Lênin được nêu trong tác phẩm nào?",
     a: "Biện chứng của tự nhiên",
     b: "Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán.",
@@ -2004,7 +1974,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 201,
+    num: 198,
     q: "Đâu là quan niệm về vật chất của triết học Mác - Lênin?",
     a: "Đồng nhất vật chất nói chung với một dạng cụ thể của vật chất.",
     b: "Không đồng nhất vật chất nói chung với dạng cụ thể của vật chất.",
@@ -2014,7 +1984,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 202,
+    num: 199,
     q: "Chọn phương án đúng nhất: Thêm cụm từ thích hợp vào câu sau để được định nghĩa về vật chất của Lênin: Vật chất là ...(1) dùng để chỉ ...(2).. được đem lại cho con người trong cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh và tồn tại không lệ thuộc vào cảm giác.",
     a: "1- Vật thể, 2- hoạt động",
     b: "1- Phạm trù triết học, 2- Thực tại khách quan.",
@@ -2024,7 +1994,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 203,
+    num: 200,
     q: "Chọn phương án đúng nhất: Tuyệt đối hóa vai trò của vật chất sẽ mắc phải sai lầm...",
     a: "Giáo điều",
     b: "Nguy biện",
@@ -2034,7 +2004,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 204,
+    num: 201,
     q: "Chọn phương án đúng nhất: Tuyệt đối hóa vai trò của ý thức sẽ mắc phải sai lầm...",
     a: "Chủ quan duy ý chí",
     b: "Nguy biện",
@@ -2044,7 +2014,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 205,
+    num: 202,
     q: "Tục ngữ Việt Nam đã khẳng định: “Có thực mới vực được đạo”, quan điểm trên thuộc lập trường triết học nào?",
     a: "Chủ nghĩa duy vật",
     b: "Chủ nghĩa duy tâm",
@@ -2054,7 +2024,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 206,
+    num: 203,
     q: "Theo V.I. Lênin, ngoài thuộc tính tồn tại khách quan thì vật chất dưới những dạng tồn tại cụ thể của nó là cái có thể...",
     a: "Tồn tại trong cảm giác của con người",
     b: "Gây nên cảm giác ở con người",
@@ -2064,7 +2034,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 207,
+    num: 204,
     q: "Quan điểm sau đây thuộc trường phái triết học nào: cái gì cảm giác được là vật chất.",
     a: "Chủ nghĩa duy vật siêu hình.",
     b: "Chủ nghĩa duy vật biện chứng.",
@@ -2074,7 +2044,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 208,
+    num: 205,
     q: "Theo chủ nghĩa duy vật biện chứng, một trong những biểu hiện tính năng động, sáng tạo của phản ánh ý thức là...",
     a: "Hình ảnh vật lý",
     b: "Là một hiện tượng xã hội",
@@ -2084,7 +2054,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 209,
+    num: 206,
     q: "Theo chủ nghĩa duy vật biện chứng, bản chất của ý thức là...",
     a: "Sản phẩm của mọi dạng vật chất",
     b: "Một dạng vật chất đặc biệt",
@@ -2094,7 +2064,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 210,
+    num: 207,
     q: "Hạn chế của chủ nghĩa duy vật chất phác là:",
     a: "Xem xét thế giới trong trạng thái biệt lập và tĩnh tại",
     b: "Xem xét thế giới trong mối liên hệ phổ biến và phát triển",
@@ -2104,7 +2074,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 211,
+    num: 208,
     q: "Hạn chế của chủ nghĩa duy vật siêu hình là:",
     a: "Xem xét thế giới trong trạng thái biệt lập và tĩnh tại",
     b: "Xem xét thế giới trong mối liên hệ phổ biến và phát triển",
@@ -2114,7 +2084,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 212,
+    num: 209,
     q: "Chọn phương án đúng nhất: Theo C.Mác, ý thức “chẳng qua chỉ là... được đem chuyển vào trong đầu óc con người và được cải biến đi trong đó.”",
     a: "Vật chất",
     b: "Bộ não người",
@@ -2124,7 +2094,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 213,
+    num: 210,
     q: "Theo chủ nghĩa duy vật biện chứng: Hình thức phản ánh nào sau đây là cao nhất?",
     a: "Phản ánh vật lý, hóa học",
     b: "Phản ánh sinh học",
@@ -2134,7 +2104,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 214,
+    num: 211,
     q: "Theo chủ nghĩa duy vật biện chứng, vận động và đứng im có mối quan hệ như thế nào?",
     a: "Vận động không bao hàm đứng im",
     b: "Vận động và đứng im là đồng nhất",
@@ -2144,7 +2114,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 215,
+    num: 212,
     q: "Theo chủ nghĩa duy vật biện chứng, phương thức tồn tại của vật chất là...",
     a: "Vận động",
     b: "Thời gian",
@@ -2154,7 +2124,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 216,
+    num: 213,
     q: "Trường phái triết học nào cho không thể có vật chất không vận động và không thể có vận động ngoài vật chất.",
     a: "Chủ nghĩa duy vật tự phát thời kỳ cổ đại.",
     b: "Chủ nghĩa duy vật siêu hình.",
@@ -2164,7 +2134,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 217,
+    num: 214,
     q: "Đâu là quan niệm của chủ nghĩa duy vật biện chứng về vận động.",
     a: "Có vật chất không vận động.",
     b: "Có vận động thuần túy ngoài vật chất.",
@@ -2174,7 +2144,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 218,
+    num: 215,
     q: "Đâu là quan điểm của chủ nghĩa duy vật biện chứng về vận động?",
     a: "Vận động là sự tự thân vận động của vật chất, không được sáng tạo ra và không mất đi.",
     b: "Vận động là sự đẩy và hút của vật thể.",
@@ -2184,7 +2154,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 219,
+    num: 216,
     q: "Theo chủ nghĩa duy vật biện chứng, sự tồn tại của sự vật thể hiện ở quá trình biến đổi nhanh hay chậm, kế tiếp và chuyển hóa... Hình thức tồn tại ấy gọi là:",
     a: "Vận động",
     b: "Không gian",
@@ -2194,7 +2164,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 220,
+    num: 217,
     q: "Theo chủ nghĩa duy vật biện chứng, mọi dạng cụ thể của vật chất đều tồn tại ở một vị trí nhất định, có quảng tính và tồn tại trong các mối tương quan nhất định với những dạng vật chất khác. Hình thức tồn tại đó gọi là:",
     a: "Vận động",
     b: "Không gian",
@@ -2204,17 +2174,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 221,
-    q: "Theo chủ nghĩa duy vật biện chứng, thế giới thống nhất ở:",
-    a: "Tính chủ quan",
-    b: "Sự tồn tại",
-    c: "Tính vật chất",
-    d: "Tính phổ biến",
-    ans: "c",
-    chapter: "ch2",
-  },
-  {
-    num: 222,
+    num: 218,
     q: "Phản ánh năng động, sáng tạo là phản ánh đặc trưng cho...",
     a: "Thực vật và động vật bậc thấp",
     b: "Động vật chưa có hệ thần kinh trung ương",
@@ -2224,7 +2184,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 223,
+    num: 219,
     q: "Theo chủ nghĩa duy vật biện chứng, nguyên tắc xuất phát từ thực tế khách quan, tôn trọng khách quan bắt nguồn từ:",
     a: "Vai trò quyết định của vật chất đối với ý thức",
     b: "Vai trò quyết định của ý thức đối với vật chất",
@@ -2234,7 +2194,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 224,
+    num: 220,
     q: "Theo chủ nghĩa duy vật biện chứng, yêu cầu phát huy tính năng động chủ quan trong hoạt động nhận thức và thực tiễn bắt nguồn từ:",
     a: "Vai trò quyết định của vật chất đối với ý thức",
     b: "Vai trò tác động trở lại của ý thức đối với vật chất",
@@ -2244,17 +2204,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 225,
-    q: "Theo chủ nghĩa duy vật biện chứng, yếu tố nào đóng vai trò là nguồn gốc cơ bản, trực tiếp và quan trọng nhất quyết định sự ra đời và phát triển của ý thức?",
-    a: "Mối quan hệ giữa con người với thế giới khách quan",
-    b: "Bộ não người",
-    c: "Lao động",
-    d: "Ngôn ngữ",
-    ans: "c",
-    chapter: "ch2",
-  },
-  {
-    num: 226,
+    num: 221,
     q: "Theo chủ nghĩa duy vật biện chứng, hệ thống tín hiệu vật chất chứa đựng thông tin mang nội dung ý thức là:",
     a: "Bộ não người",
     b: "Lao động",
@@ -2264,7 +2214,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 227,
+    num: 222,
     q: "Trường phái triết học nào coi ý thức là hình ảnh chủ quan của thế giới khách quan?",
     a: "Chủ nghĩa duy vật biện chứng",
     b: "Chủ nghĩa duy tâm chủ quan",
@@ -2274,7 +2224,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 228,
+    num: 223,
     q: "Trình độ phản ánh đặc trưng cho các loài thực vật là gì?",
     a: "Sự kích thích",
     b: "Sự phản xạ",
@@ -2284,7 +2234,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 229,
+    num: 224,
     q: "Trình độ phản ánh đặc trưng cho các loài động vật đã có hệ thần kinh là gì?",
     a: "Sự kích thích",
     b: "Sự phản xạ",
@@ -2294,7 +2244,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 230,
+    num: 225,
     q: "Theo chủ nghĩa duy vật biện chứng, trình độ phản ánh đặc trưng ở động vật có hệ thần kinh trung ương phát triển là gì?",
     a: "Sự kích thích",
     b: "Sự phản xạ",
@@ -2304,7 +2254,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 231,
+    num: 226,
     q: "Điền vào chỗ trống ...là trình độ phản ánh cao nhất của các loài động vật, bao gồm cả phản xạ không có điều kiện và có điều kiện.",
     a: "Sự kích thích",
     b: "Sự phản xạ",
@@ -2314,7 +2264,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 232,
+    num: 227,
     q: "Nhận định nào sau đây là SAI?",
     a: "Vật chất không chỉ có một dạng tồn tại là vật thể",
     b: "Vật thể không phải là vật chất",
@@ -2324,7 +2274,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 233,
+    num: 228,
     q: "Chọn phương án SAI: Bệnh chủ quan duy ý chí có các biểu hiện sau:",
     a: "Luôn tôn trọng quy luật khách quan",
     b: "Suy nghĩ và hành động nóng vội",
@@ -2334,7 +2284,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 234,
+    num: 229,
     q: "Theo chủ nghĩa duy vật biện chứng, ý thức là một ... mang bản chất xã hội.",
     a: "Hiện tượng vật chất",
     b: "Hiện tượng tinh thần",
@@ -2344,7 +2294,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 235,
+    num: 230,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật biện chứng, đúng im là:",
     a: "Tuyệt đối",
     b: "Tương đối",
@@ -2354,7 +2304,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 236,
+    num: 231,
     q: "Theo chủ nghĩa duy vật biện chứng, ngôn ngữ là:",
     a: "Cái vỏ vật chất của tư duy",
     b: "Nội dung của ý thức",
@@ -2364,7 +2314,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 237,
+    num: 232,
     q: "Chọn phương án đúng nhất: Tuyệt đối hóa vai trò của vật chất sẽ mắc phải sai lầm...",
     a: "Giáo điều",
     b: "Chiết trung",
@@ -2374,17 +2324,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 238,
-    q: "Chọn phương án đúng nhất: Tuyệt đối hóa vai trò của ý thức sẽ mắc phải sai lầm...",
-    a: "Chủ quan duy ý chí",
-    b: "Nguy biện",
-    c: "Bảo thủ, trì trệ, thụ động",
-    d: "Phiến diện",
-    ans: "a",
-    chapter: "ch2",
-  },
-  {
-    num: 239,
+    num: 233,
     q: "Chọn phương án đúng nhất: Từ quan điểm của chủ nghĩa duy vật biện chứng về mối quan hệ giữa vật chất và ý thức, trong mọi hoạt động nhận thức và thực tiễn cần phải:",
     a: "Phát huy tính năng động chủ quan",
     b: "Có quan điểm toàn diện",
@@ -2394,7 +2334,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 240,
+    num: 234,
     q: "Chủ nghĩa duy vật chất phác có ưu điểm:",
     a: "Lấy bản thân giới tự nhiên để giải thích sự hình thành của giới tự nhiên",
     b: "Quy vật chất về một số dạng tồn tại cụ thể",
@@ -2404,7 +2344,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 241,
+    num: 235,
     q: "Theo chủ nghĩa duy vật biện chứng, yếu tố tiên quyết về mặt xã hội cho sự hình thành ý thức là:",
     a: "Lao động",
     b: "Quan hệ xã hội",
@@ -2414,7 +2354,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 242,
+    num: 236,
     q: "Theo chủ nghĩa duy vật biện chứng, những yếu tố nào sau đây là điều kiện cần cho sự hình thành ý thức?",
     a: "Bộ óc người và sự tác động của thế giới khách quan lên bộ óc người",
     b: "Lao động và ngôn ngữ",
@@ -2424,7 +2364,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 243,
+    num: 237,
     q: "Theo phép biện chứng duy vật, mối liên hệ phổ biến:",
     a: "Chỉ có trong lĩnh vực tự nhiên",
     b: "Chỉ có trong lĩnh vực xã hội",
@@ -2434,7 +2374,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 244,
+    num: 238,
     q: "Theo phép biện chứng duy vật, khi vận dụng nguyên tắc phát triển cần phải khắc phục quan điểm:",
     a: "Phiến diện",
     b: "Chiết trung",
@@ -2444,7 +2384,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 245,
+    num: 239,
     q: "Chọn phương án đúng nhất: Theo phép biện chứng duy vật:",
     a: "Phủ định biện chứng là sự phủ định cần có sự can thiệp của con người",
     b: "Phủ định biện chứng là sự tự phủ định, phủ định tạo tiền đề cho cái mới ra đời, cho sự phát triển tiếp theo của sự vật, hiện tượng",
@@ -2454,7 +2394,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 246,
+    num: 240,
     q: "Theo V.I. Lênin: Sự phát triển là một cuộc “...” giữa các mặt đối lập.",
     a: "Thống nhất",
     b: "Đấu tranh",
@@ -2464,7 +2404,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 247,
+    num: 241,
     q: "Phạm trù nào dùng để chỉ một sự vật, một hiện tượng nhất định?",
     a: "Cái đơn nhất",
     b: "Cái đặc thù",
@@ -2474,7 +2414,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 248,
+    num: 242,
     q: "Theo phép biện chứng duy vật, chất của một sự vật, hiện tượng được tạo thành từ...?",
     a: "Chỉ một thuộc tính",
     b: "Các thuộc tính không cơ bản",
@@ -2484,7 +2424,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 249,
+    num: 243,
     q: "Chọn phương án đúng nhất: Sự đối lập giữa chủ nghĩa duy vật và chủ nghĩa duy tâm thể hiện rõ nhất khi:",
     a: "Giải quyết mặt thứ nhất vấn đề cơ bản của triết học",
     b: "Giải quyết mặt thứ hai vấn đề cơ bản của triết học",
@@ -2494,7 +2434,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 250,
+    num: 244,
     q: "Theo phép biện chứng duy vật, mỗi sự vật, hiện tượng:",
     a: "Chỉ có một loại lượng và một loại chất",
     b: "Có nhiều loại lượng và một loại chất",
@@ -2504,7 +2444,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 251,
+    num: 245,
     q: "Quy luật nào được V.I. Lênin gọi là hạt nhân của phép biện chứng duy vật?",
     a: "Quy luật chuyển hóa từ những sự thay đổi về lượng thành những thay đổi về chất và ngược lại",
     b: "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
@@ -2514,7 +2454,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 252,
+    num: 246,
     q: "Nguyên tắc phát triển giúp chúng ta khắc phục được tư tưởng...",
     a: "Nôn nóng, tà khuynh",
     b: "Chiết trung, ngụy biện",
@@ -2524,7 +2464,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 253,
+    num: 247,
     q: "Theo phép biện chứng duy vật: “Kết quả dùng để chỉ những... xuất hiện do sự tác động giữa các mặt, các yếu tố trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng”.",
     a: "Biến động",
     b: "Biến đổi",
@@ -2534,7 +2474,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 254,
+    num: 248,
     q: "Trong hoạt động nhận thức và thực tiễn, nếu đánh tráo các mối liên hệ cơ bản thành không cơ bản hoặc ngược lại thì sẽ mắc phải sai lầm nào?",
     a: "Phiến diện",
     b: "Ngụy biện",
@@ -2544,7 +2484,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 255,
+    num: 249,
     q: "Trong hoạt động nhận thức và thực tiễn, nếu lắp ghép vô nguyên tắc các mối liên hệ trái ngược nhau vào một mối liên hệ phổ biến thì sẽ mắc phải sai lầm nào?",
     a: "Phiến diện",
     b: "Ngụy biện",
@@ -2554,7 +2494,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 256,
+    num: 250,
     q: "Theo phép biện chứng duy vật: Một nguyên nhân trong những điều kiện nhất định có thể:",
     a: "Luôn sinh ra một kết quả",
     b: "Luôn sinh ra nhiều kết quả",
@@ -2564,7 +2504,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 257,
+    num: 251,
     q: "Theo phép biện chứng duy vật, sự chuyển hóa giữa nguyên nhân và kết quả có nghĩa...",
     a: "Có nguyên nhân đầu tiên và có kết quả cuối cùng",
     b: "Có nguyên nhân đầu tiên nhưng không có kết quả cuối cùng",
@@ -2574,7 +2514,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 258,
+    num: 252,
     q: "Quy luật nào của phép biện chứng duy vật làm rõ phương thức/cách thức chung của mọi sự vận động, phát triển trong tự nhiên, xã hội và tư duy?",
     a: "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
     b: "Quy luật chuyển hóa từ những sự thay đổi về lượng thành những thay đổi về chất và ngược lại",
@@ -2584,7 +2524,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 259,
+    num: 253,
     q: "Điền vào chỗ trống ... là phạm trù dùng để chỉ sự biểu hiện ra bên ngoài của những mặt, những mối liên hệ của sự vật, hiện tượng trong những điều kiện xác định.",
     a: "Bản chất",
     b: "Ngẫu nhiên",
@@ -2594,7 +2534,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 260,
+    num: 254,
     q: "Điền vào chỗ trống: ... là phạm trù dùng để chỉ cái chưa xuất hiện, chưa tồn tại trong thực tế nhưng sẽ xuất hiện và tồn tại thực sự khi có các điều kiện tương ứng.",
     a: "Tất nhiên",
     b: "Hiện thực",
@@ -2604,7 +2544,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 261,
+    num: 255,
     q: "Điền vào chỗ trống...là phạm trù dùng để chỉ những cái đang tồn tại trong thực tế.",
     a: "Tất nhiên",
     b: "Hiện thực",
@@ -2614,7 +2554,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 262,
+    num: 256,
     q: "Quan niệm triết học nào cho rằng: Cơ sở quyết định các mối liên hệ giữa các sự vật, hiện tượng là cảm giác của con người?",
     a: "Chủ nghĩa duy vật siêu hình",
     b: "Chủ nghĩa duy tâm khách quan",
@@ -2624,7 +2564,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 263,
+    num: 257,
     q: "“Khái niệm chất dùng để chỉ tính quy định khách quan vốn có của sự vật, hiện tượng, là sự thống nhất hữu cơ các...cấu thành nó, phân biệt nó với sự vật, hiện tượng”.",
     a: "Thuộc tính",
     b: "Đặc tính",
@@ -2634,7 +2574,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 264,
+    num: 258,
     q: "Theo phép biện chứng duy vật, các phạm trù được hình thành...",
     a: "Trong ý thức của con người",
     b: "Bên ngoài, độc lập với ý thức của con người",
@@ -2644,7 +2584,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 265,
+    num: 259,
     q: "Khái niệm nào dùng để chỉ tính quy định khách quan vốn có của sự vật, hiện tượng về các phương diện: số lượng các yếu tố cấu thành, quy mô của sự tồn tại, tốc độ của quá trình vận động, phát triển của sự vật, hiện tượng?",
     a: "Mối liên hệ",
     b: "Vận động",
@@ -2654,7 +2594,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 266,
+    num: 260,
     q: "Chọn phương án đúng nhất: Theo phép biện chứng duy vật, các sự vật, hiện tượng vận động, phát triển bằng cách:",
     a: "Chỉ cần thay đổi về lượng",
     b: "Chỉ cần thay đổi về chất",
@@ -2664,7 +2604,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 267,
+    num: 261,
     q: "Theo phép biện chứng duy vật, cái... chỉ tồn tại trong mối liên hệ với cái...",
     a: "Chung/Riêng",
     b: "Riêng/Chung",
@@ -2674,7 +2614,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 268,
+    num: 262,
     q: "Theo phép biện chứng duy vật, biện chứng khách quan là:",
     a: "Biện chứng tiên nghiệm, có trước kinh nghiệm",
     b: "Biện chứng của thế giới vật chất",
@@ -2684,7 +2624,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 269,
+    num: 263,
     q: "Khái niệm dùng để chỉ sự thay đổi về lượng đến một giới hạn nhất định sẽ tất yếu dẫn đến những thay đổi về chất được gọi là:",
     a: "Độ",
     b: "Điểm nút",
@@ -2694,7 +2634,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 270,
+    num: 264,
     q: "Điền vào chỗ trống: Điểm nút là... mà tại đó sự thay đổi về lượng đã đủ để dẫn tới sự thay đổi về chất của sự vật, hiện tượng, thời điểm mà tại đó bắt đầu xảy ra bước nhảy.",
     a: "giới hạn",
     b: "khoảng giới hạn",
@@ -2704,7 +2644,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 271,
+    num: 265,
     q: "Điền vào chỗ trống: ... là khái niệm dùng để chỉ những chuyển hóa về chất của sự vật, hiện tượng do những sự thay đổi về lượng trước đó gây ra.",
     a: "Vận động",
     b: "Phát triển",
@@ -2714,7 +2654,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 272,
+    num: 266,
     q: "Căn cứ vào quy mô và nhịp độ của bước nhảy, có thể phân chia bước nhảy thành:",
     a: "Bước nhảy toàn bộ và bước nhảy tức thời",
     b: "Bước nhảy cục bộ và bước nhảy dần dần",
@@ -2724,7 +2664,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 273,
+    num: 267,
     q: "Theo phép biện chứng duy vật, cái... và cái... có thể chuyển hóa cho nhau trong quá trình phát triển của sự vật, hiện tượng.",
     a: "Chung/Riêng",
     b: "Riêng/Chung",
@@ -2734,7 +2674,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 274,
+    num: 268,
     q: "Theo phép biện chứng duy vật, cái riêng tồn tại:",
     a: "Trong mối liên hệ với cái chung",
     b: "Bên ngoài, độc lập với cái chung",
@@ -2744,7 +2684,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 275,
+    num: 269,
     q: "Theo nguyên lý về sự phát triển, sự phát triển có mấy tính chất?",
     a: "2",
     b: "3",
@@ -2754,7 +2694,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 276,
+    num: 270,
     q: "Theo nguyên lý về mối liên hệ phổ biến, mối liên hệ có mấy tính chất?",
     a: "2",
     b: "3",
@@ -2764,7 +2704,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 277,
+    num: 271,
     q: "Căn cứ vào thời gian của sự thay đổi về chất và dựa trên cơ chế của sự thay đổi đó, có thể phân chia bước nhảy thành:",
     a: "Bước nhảy toàn bộ và bước nhảy tức thời",
     b: "Bước nhảy tức thời và bước nhảy dần dần",
@@ -2774,7 +2714,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 278,
+    num: 272,
     q: "Trong hoạt động nhận thức và thực tiễn, nếu không tích lũy về lượng để biến đổi về chất sẽ mắc phải sai lầm...",
     a: "tư tưởng nôn nóng, đốt cháy giai đoạn",
     b: "bảo thủ, trì trệ, ngại khó",
@@ -2784,7 +2724,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 279,
+    num: 273,
     q: "Điền từ vào chỗ trống: Một trong những ý nghĩa phương pháp luận được rút ra từ mối quan hệ giữa nội dung và hình thức, muốn biến đổi sự vật, hiện tượng thì trước hết phải tác động, làm thay đổi (...) của nó.",
     a: "Nội dung",
     b: "Hình thức",
@@ -2794,7 +2734,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 280,
+    num: 274,
     q: "Trong các hình thức của thực tiễn, hình thức nào giữ vai trò quan trọng nhất?",
     a: "Hoạt động sản xuất vật chất",
     b: "Hoạt động chính trị - xã hội",
@@ -2804,7 +2744,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 281,
+    num: 275,
     q: "Trong các hình thức sau đây, đâu là hình thức cơ bản của thực tiễn?",
     a: "Nghiên cứu khoa học",
     b: "Sản xuất vật chất",
@@ -2814,7 +2754,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 282,
+    num: 276,
     q: "Quy luật nào được V.I. Lênin gọi là hạt nhân của phép biện chứng duy vật?",
     a: "Quy luật chuyển hóa từ những sự thay đổi về lượng thành những thay đổi về chất và ngược lại",
     b: "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
@@ -2824,7 +2764,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 283,
+    num: 277,
     q: "Điền vào chỗ trống: ... là sự tác động qua lại giữa các mặt, các khuynh hướng đối lập nằm trong chính mỗi sự vật, hiện tượng; có vai trò quy định trực tiếp quá trình vận động và phát triển của sự vật, hiện tượng.",
     a: "Mâu thuẫn chủ yếu",
     b: "Mâu thuẫn cơ bản",
@@ -2834,7 +2774,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 284,
+    num: 278,
     q: "Điền vào chỗ trống...xuất hiện trong mối liên hệ giữa các sự vật, hiện tượng với nhau; tuy cũng ảnh hưởng đến sự tồn tại và phát triển của chúng nhưng phải thông qua mâu thuẫn bên trong mới phát huy tác dụng.",
     a: "Mâu thuẫn thứ yếu",
     b: "Mâu thuẫn không cơ bản",
@@ -2844,7 +2784,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 285,
+    num: 279,
     q: "Điền vào chỗ trống: ... là mâu thuẫn giữa các giai cấp, tập đoàn người, lực lượng, xu hướng xã hội có lợi ích cơ bản đối lập nhau và không thể điều hòa được.",
     a: "Mâu thuẫn chủ yếu",
     b: "Mâu thuẫn cơ bản",
@@ -2854,7 +2794,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 286,
+    num: 280,
     q: "Lựa chọn câu đúng nhất theo quan điểm DVBC:",
     a: "Phát triển là sự thay đổi thuần túy về mặt số lượng hay khối lượng của sự vật hiện tượng",
     b: "Phát triển là sự thay đổi về vị trí của sự vật hiện tượng trong không gian, thời gian",
@@ -2864,7 +2804,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 287,
+    num: 281,
     q: "Nguyên tắc phát triển giúp chúng ta khắc phục được tư tưởng:",
     a: "Nôn nóng, tà khuynh",
     b: "Chiết trung, nguy biện",
@@ -2874,7 +2814,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 288,
+    num: 282,
     q: "Ph. Ăngghen đã cho rằng: Đối với những ai phủ nhận (...) thì mọi quy luật của tự nhiên đều là giả thuyết.",
     a: "Tính phổ biến",
     b: "Tính nhân quả",
@@ -2884,7 +2824,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 289,
+    num: 283,
     q: "Một sinh viên quan niệm: Vì nhà nghèo, cha mẹ đã phải nỗ lực chu cấp cho đi học đại học nên mình phải cố gắng rèn luyện, học giỏi, ra trường tìm được việc làm với mức thu nhập cao. Vận dụng cặp phạm trù nào của phép biện chứng duy vật để giải thích quan niệm trên?",
     a: "Cái riêng - cái chung",
     b: "Nguyên nhân - kết quả",
@@ -2894,7 +2834,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 290,
+    num: 284,
     q: "Chọn phương án SAI: Phủ định biện chứng là sự phủ định...",
     a: "Có tính chất kế thừa",
     b: "Chấm dứt hoàn toàn quá trình phát triển",
@@ -2904,7 +2844,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 291,
+    num: 285,
     q: "Mối liên hệ của các sự vật hiện tượng là gì? Xác định câu trả lời đúng nhất.",
     a: "Là sự tác động lẫn nhau, chi phối, chuyển hoá lẫn nhau một cách khách quan, phổ biến, nhiều về giữa các mặt, quá trình của sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng",
     b: "Là sự thừa nhận rằng giữa các mặt của sự vật, hiện tượng và giữa các sự vật với nhau trong thực tế khách quan không có mối liên hệ nào cả",
@@ -2914,7 +2854,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 292,
+    num: 286,
     q: "Chọn câu trả lời đúng: Chất của sự vật là:",
     a: "Những yếu tố tạo nên sự vật",
     b: "Thuộc tính không cơ bản",
@@ -2924,7 +2864,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 293,
+    num: 287,
     q: "Xác định quan niệm sai về phủ định biện chứng:",
     a: "Phủ định có tính kế thừa",
     b: "Phủ định là chấm dứt sự phát triển",
@@ -2934,7 +2874,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 294,
+    num: 288,
     q: "Ph.Ăngghen viết: '[...] là điều kiện cơ bản đầu tiên của toàn bộ đời sống loài người, và như thế đến một mức mà trên một ý nghĩa nào đó, chúng ta phải nói: [...] đã sáng tạo ra bản thân con người'. Hãy điền một từ vào chỗ trống để hoàn thiện câu trên.",
     a: "Lao động",
     b: "Vật chất",
@@ -2944,7 +2884,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 295,
+    num: 289,
     q: "Trong 'Bút ký triết học', V.I.Lênin viết: 'Nhận thức là sự tiến gần mãi mãi và vô tận của [...] đến khách thể'. Hãy điền vào chỗ trống để hoàn thiện câu trên.",
     a: "Chủ thể",
     b: "Ý thức",
@@ -2954,7 +2894,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 296,
+    num: 290,
     q: "Triết học Mác-Lênin cho rằng, thực tiễn là toàn bộ [...] có mục đích, mang tính lịch sử - xã hội của con người nhằm cải tạo thế giới khách quan. Hãy điền vào chỗ trống để hoàn thiện quan điểm trên.",
     a: "Hoạt động vật chất và tinh thần",
     b: "Hoạt động vật chất",
@@ -2964,7 +2904,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 297,
+    num: 291,
     q: "Ph.Ăngghen viết về vai trò động lực của thực tiễn đối với nhận thức như sau: \"Khi xã hội có nhu cầu về kỹ thuật thì nó thúc đẩy khoa học phát triển hơn mười [.].\". Hãy điền vào chỗ trống để hoàn thiện câu trên.",
     a: "Nhà phát minh",
     b: "Thế kỉ",
@@ -2974,7 +2914,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 298,
+    num: 292,
     q: "Theo quan niệm của triết học Mác - Lênin, thực tiễn là:",
     a: "Toàn bộ hoạt động vật chất có mục đích, mang tính lịch sử – xã hội của con người nhằm cải tạo thế giới khách quan",
     b: "Toàn bộ hoạt động tinh thần có mục đích, mang tính lịch sử – xã hội của con người nhằm cải tạo thế giới khách quan",
@@ -2984,7 +2924,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 299,
+    num: 293,
     q: "Theo quan niệm của triết học Mác - Lênin, bản chất của nhận thức là:",
     a: "Sự phản ánh thế giới khách quan vào đầu óc của con người",
     b: "Sự phản ánh chủ động, tích cực, sáng tạo của chủ thể trước khách thể",
@@ -2994,7 +2934,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 300,
+    num: 294,
     q: "Hình thức nào là hình thức đầu tiên của giai đoạn trực quan sinh động?",
     a: "Khái niệm",
     b: "Biểu tượng",
@@ -3004,7 +2944,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 301,
+    num: 295,
     q: "Hình thức nào của tư duy trừu tượng là hình thức liên kết các khái niệm?",
     a: "Khái niệm",
     b: "Biểu tượng",
@@ -3014,7 +2954,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 302,
+    num: 296,
     q: "Tiêu chuẩn của chân lý theo triết học Mác - Lênin là gì?",
     a: "Thực tiễn",
     b: "Nhận thức",
@@ -3024,7 +2964,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 303,
+    num: 297,
     q: "Hình thức nào là hình thức đầu tiên của giai đoạn tư duy trừu tượng?",
     a: "Khái niệm",
     b: "Biểu tượng",
@@ -3034,7 +2974,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 304,
+    num: 298,
     q: "Hình thức nào của tư duy trừu tượng là hình thức liên kết các phán đoán?",
     a: "Khái niệm",
     b: "Biểu tượng",
@@ -3044,7 +2984,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 305,
+    num: 299,
     q: "Xác định quan niệm sai về thực tiễn:",
     a: "Thực tiễn là nguồn gốc của nhận thức và qua thực tiễn bộc lộ thuộc tính bản chất của đối tượng",
     b: "Thực tiễn là động lực của nhận thức, nó đòi hỏi tư duy con người phải giải đáp những vấn đề đặt ra",
@@ -3054,7 +2994,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 306,
+    num: 300,
     q: "Chọn câu trả lời đúng: Tri thức của con người ngày càng hoàn thiện là:",
     a: "Thế giới đang vận động bộc lộ càng nhiều tính quy định",
     b: "Nhờ sự nỗ lực hoạt động thực tiễn của con người",
@@ -3064,7 +3004,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 307,
+    num: 301,
     q: "Chọn câu trả lời đúng nhất. Chân lý là:",
     a: "Tri thức đúng",
     b: "Tri thức phù hợp với thực tế",
@@ -3074,7 +3014,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 308,
+    num: 302,
     q: "Chọn câu trả lời đúng: Trong các hình thức cơ bản của hoạt động thực tiễn, hình thức nào là quan trọng nhất?",
     a: "Sản xuất vật chất",
     b: "Chính trị - xã hội",
@@ -3084,7 +3024,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 309,
+    num: 303,
     q: "Chọn câu trả lời đúng: Một trong những vai trò của thực tiễn đối với nhận thức:",
     a: "Thực tiễn là cơ sở, nguồn gốc của nhận thức",
     b: "Thực tiễn là kết quả của nhận thức",
@@ -3094,7 +3034,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 310,
+    num: 304,
     q: "Căn cứ vào sự tồn tại và phát triển của toàn bộ sự vật, hiện tượng, có thể phân chia mâu thuẫn thành:",
     a: "Mâu thuẫn bên trong và mâu thuẫn bên ngoài",
     b: "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
@@ -3104,7 +3044,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 311,
+    num: 305,
     q: "Căn cứ vào quan hệ giữa các mặt đối lập trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng với nhau, có thể phân chia mâu thuẫn thành:",
     a: "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng",
     b: "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
@@ -3114,7 +3054,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 312,
+    num: 306,
     q: "Căn cứ vào vai trò của mâu thuẫn đối với sự tồn tại và phát triển của sự vật, hiện tượng trong mỗi giai đoạn nhất định, có thể phân chia mâu thuẫn thành:",
     a: "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng",
     b: "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
@@ -3124,7 +3064,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 313,
+    num: 307,
     q: "Căn cứ vào tính chất đối lập về lợi ích cơ bản giữa các giai cấp trong xã hội có đối kháng giai cấp, có thể phân chia mâu thuẫn thành:",
     a: "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
     b: "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng",
@@ -3134,7 +3074,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 314,
+    num: 308,
     q: "Điền vào chỗ trống:...là hình thức đầu tiên, là cơ sở của mọi nhận thức tiếp theo của con người...hình thành do sự tác động trực tiếp của sự vật, hiện tượng lên các giác quan của con người.",
     a: "cảm giác...tri giác",
     b: "tri giác ...cảm giác",
@@ -3144,7 +3084,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 315,
+    num: 309,
     q: "Điền vào chỗ trống: ... là kết quả của sự tác động trực tiếp của sự vật đồng thời lên nhiều giác quan của con người.",
     a: "Cảm giác",
     b: "Tri giác",
@@ -3154,7 +3094,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 316,
+    num: 310,
     q: "Điền vào chỗ trống: ... phản ánh khái quát một hoặc một số thuộc tính chung có tính bản chất nào đó của một nhóm sự vật, hiện tượng được biểu thị bằng một từ hoặc một cụm từ.",
     a: "Biểu tượng",
     b: "Khái niệm",
@@ -3164,7 +3104,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 317,
+    num: 311,
     q: "Quy luật phủ định của phủ định chỉ ra:",
     a: "Phương thức chung của mọi quá trình vận động và phát triển",
     b: "Nguồn gốc, động lực cơ bản của mọi quá trình vận động và phát triển",
@@ -3174,7 +3114,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 318,
+    num: 312,
     q: "Quan điểm nào cho rằng: Các sự vật, hiện tượng và các quá trình khác nhau của thế giới có mối liên hệ, tác động, ảnh hưởng lẫn nhau?",
     a: "Siêu hình",
     b: "Biện chứng",
@@ -3184,7 +3124,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 319,
+    num: 313,
     q: "Tục ngữ Việt Nam có câu: “Năng nhặt chặt bị”, “Góp gió thành bão”. Quan điểm trên vận dụng quy luật nào sau đây là phù hợp nhất:",
     a: "Quy luật chuyển hóa từ những sự thay đổi về lượng thành những thay đổi về chất và ngược lại",
     b: "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
@@ -3194,7 +3134,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 320,
+    num: 314,
     q: "Theo phép biện chứng duy vật, cái... là cái toàn bộ, phong phú hơn cái...",
     a: "Chung/Riêng",
     b: "Riêng/Chung",
@@ -3204,7 +3144,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 321,
+    num: 315,
     q: "Theo phép biện chứng duy vật, trong hoạt động nhận thức và thực tiễn, nếu chỉ chú trọng thực hiện những bước nhảy liên tục về chất mà không tích lũy về lượng sẽ mắc phải sai lầm:",
     a: "Bảo thủ, hữu khuynh",
     b: "Nôn nóng, tả khuynh",
@@ -3214,17 +3154,17 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch2",
   },
   {
-    num: 322,
+    num: 316,
     q: "Theo chủ nghĩa duy vật biện chứng, nguồn gốc “duy nhất và cuối cùng” của nhận thức là...?",
-    a: "Thế giới tâm linh Con người hiện thực Biết sáng tạo/ Ph.Ăngghen Sản xuất ra của cải vật chất, tinh thần và văn hóa",
-    b: "Thế giới khách quan Con người trừu tượng Sản xuất/Ph.Ăngghen Sản xuất ra văn hóa, con người và đời sống tinh thần",
-    c: "Thế giới sự vật cảm tính Con người hành động Tiến hành lao động/C.Mác Sản xuất ra của cải vật chất, đời sống tinh thần và nghệ thuật",
-    d: "Tư duy con người # GỢI Ý ĐÁP ÁN | Câu 1 | B | Câu 11 | D | Câu 21 | C | Câu 31 | B | | --- | --- | --- | --- | --- | --- | --- | --- | | Câu 2 | A | Câu 12 | B | Câu 22 | C | Câu 32 | C | | Câu 3 | B | Câu 13 | B | Câu 23 | A | Câu 33 | B | | Câu 4 | B | Câu 14 | A | Câu 24 | B | Câu 34 | B | | Câu 5 | A | Câu 15 | B | Câu 25 | B | Câu 35 | B | | Câu 6 | A | Câu 16 | A | Câu 26 | C | Câu 36 | D | | Câu 7 | C | Câu 17 | D | Câu 27 | B | Câu 37 | A | | Câu 8 | C | Câu 18 | A | Câu 28 | C | Câu 38 | A | | Câu 9 | B | Câu 19 | C | Câu 29 | B | Câu 39 | B | | Câu 10 | B | Câu 20 | A | Câu 30 | C | Câu 40 | D | | Câu 41 | C | Câu 51 | A | Câu 61 | A | Câu 71 | A | | Câu 42 | D | Câu 52 | D | Câu 62 | B | Câu 72 | D | | Câu 43 | C | Câu 53 | B | Câu 63 | C | Câu 73 | A | | Câu 44 | A | Câu 54 | C | Câu 64 | C | Câu 74 | A | | Câu 45 | A | Câu 55 | D | Câu 65 | B | Câu 75 | B | | Câu 46 | D | Câu 56 | A | Câu 66 | A | Câu 76 | D | | Câu 47 | D | Câu 57 | B | Câu 67 | D | Câu 77 | D | | Câu 48 | A | Câu 58 | C | Câu 68 | B | Câu 78 | B | | Câu 49 | C | Câu 59 | C | Câu 69 | A | Câu 79 | B | | Câu 50 | C | Câu 60 | A | Câu 70 | D | Câu 80 | C | | Câu 81 | D | Câu 91 | B | Câu 101 | B | Câu 111 | A | | Câu 82 | A | Câu 92 | D | Câu 102 | B | Câu 112 | A | | Câu 83 | C | Câu 93 | D | Câu 103 | D | Câu 113 | A | | Câu 84 | B | Câu 94 | B | Câu 104 | C | Câu 114 | B | | Câu 85 | D | Câu 95 | C | Câu 105 | C | Câu 115 | B | | Câu 86 | B | Câu 96 | A | Câu 106 | C | Câu 116 | D | | Câu 87 | B | Câu 97 | C | Câu 107 | A | Câu 117 | C | | Câu 88 | C | Câu 98 | C | Câu 108 | C | Câu 118 | D | | Câu 89 | C | Câu 99 | C | Câu 109 | B | Câu 119 | C | | Câu 90 | D | Câu 100 | B | Câu 110 | B | Câu 120 | D | | Câu 121 | B | Câu 131 | A | Câu 141 | A | Câu 151 | B | | Câu 122 | B | Câu 132 | B | Câu 142 | A | Câu 152 | A | | Câu 123 | B | Câu 133 | C | Câu 143 | C | Câu 153 | B | | Câu 124 | A | Câu 134 | D | Câu 144 | D | Câu 154 | B | | Câu 125 | D | Câu 135 | A | Câu 145 | B | Câu 155 | B | | --- | --- | --- | --- | --- | --- | --- | --- | | Câu 126 | B | Câu 136 | A | Câu 146 | B | | | | Câu 127 | A | Câu 137 | D | Câu 147 | C | | | | Câu 128 | A | Câu 138 | C | Câu 148 | B | | | | Câu 129 | B | Câu 139 | B | Câu 149 | B | | | | Câu 130 | D | Câu 140 | D | Câu 150 | C | | | # CHƯƠNG 3: CHỦ NGHĨA DUY VẬT LỊCH SỬ Câu 1. Tiền đề xuất phát của quan điểm duy vật lịch sử là? Con người tư duy Câu 2. Điền thêm từ để hoàn thiện nhận định sau đây và xác định đó là nhận định của ai? “Điểm khác biệt căn bản giữa xã hội loài người với xã hội loài vật là ở chỗ: loài vật may mắn lắm chỉ hái lượm trong khi con người lại” Tư duy/V.I Lênin Câu 3. Chọn phương án đúng nhất: Xã hội có các loại hình sản xuất cơ bản là... Sản xuất ra của cải vật chất, tinh thần và con người",
+    a: "Thế giới tâm linh",
+    b: "Thế giới khách quan",
+    c: "Thế giới sự vật cảm tính",
+    d: "Tư duy con người",
     ans: "b",
     chapter: "ch2",
   },
   {
-    num: 323,
+    num: 317,
     q: "C. Mác đã viết: “Cái cối xay quay bằng tay đưa lại xã hội có lãnh chúa phong kiến, cái cối xay chạy bằng hơi nước đưa lại xã hội có nhà tư bản công nghiệp”. Hãy cho biết câu nói trên phản ánh quan điểm nào?",
     a: "Vai trò quyết định của lực lượng sản xuất đối với quan hệ sản xuất",
     b: "Vai trò quyết định của quan hệ sản xuất đối với lực lượng sản xuất",
@@ -3234,7 +3174,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 324,
+    num: 318,
     q: "Theo C.Mác, các nền kinh tế căn bản được phân biệt với nhau bởi?",
     a: "Mục đích của quá trình sản xuất ra của cải vật chất",
     b: "Mục đích xã hội của quá trình sản xuất ra của cải vật chất",
@@ -3244,7 +3184,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 325,
+    num: 319,
     q: "Tiêu chuẩn quan trọng nhất để phân biệt các thời đại kinh tế là gì?",
     a: "Phương thức sản xuất",
     b: "Thể chế chính trị",
@@ -3254,7 +3194,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 326,
+    num: 320,
     q: "Phương thức sản xuất là?",
     a: "Những cách thức mà con người sử dụng để tiến hành quá trình sản xuất của xã hội ở những giai đoạn lịch sử nhất định",
     b: "Sự thống nhất cơ sở hạ tầng và kiến trúc thượng tầng",
@@ -3264,7 +3204,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 327,
+    num: 321,
     q: "Trong các hình thức của sản xuất xã hội, hình thức nào là nền tảng?",
     a: "Sản xuất vật chất",
     b: "Sản xuất tinh thần",
@@ -3274,7 +3214,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 328,
+    num: 322,
     q: "Quan hệ sản xuất là?",
     a: "Mối quan hệ giữa con người với đối tượng lao động",
     b: "Mối quan hệ giữa con người với công cụ lao động",
@@ -3284,7 +3224,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 329,
+    num: 323,
     q: "Sự biến đổi của quan hệ sản xuất do yếu tố nào quyết định nhất?",
     a: "Trình độ của lực lượng sản xuất",
     b: "Sự phong phú của đối tượng lao động",
@@ -3294,7 +3234,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 330,
+    num: 324,
     q: "Quan hệ cơ bản nhất, đóng vai trò quyết định trong hệ thống quan hệ sản xuất là?",
     a: "Quan hệ tổ chức và quản lý sản xuất",
     b: "Quan hệ sở hữu về công cụ lao động",
@@ -3304,7 +3244,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 331,
+    num: 325,
     q: "Lực lượng sản xuất bao gồm các nhân tố nào?",
     a: "Người lao động và tư liệu sản xuất",
     b: "Người lao động và công cụ lao động",
@@ -3314,7 +3254,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 332,
+    num: 326,
     q: "Tư liệu sản xuất bao gồm?",
     a: "Con người và công cụ lao động",
     b: "Người lao động, công cụ lao động và đối tượng lao động",
@@ -3324,7 +3264,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 333,
+    num: 327,
     q: "Trong mối quan hệ giữa lực lượng sản xuất và quan hệ sản xuất:",
     a: "Lực lượng sản xuất phụ thuộc vào quan hệ sản xuất",
     b: "Quan hệ sản xuất phụ thuộc vào trình độ phát triển của lực lượng sản xuất",
@@ -3334,7 +3274,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 334,
+    num: 328,
     q: "Cơ sở hạ tầng là?",
     a: "Toàn bộ quan hệ sản xuất hợp thành cơ cấu kinh tế của một xã hội nhất định",
     b: "Toàn bộ quan hệ sản xuất của xã hội",
@@ -3344,7 +3284,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 335,
+    num: 329,
     q: "Kiến trúc thượng tầng là?",
     a: "Toàn bộ những quan điểm chính trị, pháp quyền, đạo đức, triết học, tôn giáo, nghệ thuật... cùng với những thiết chế xã hội tương ứng như nhà nước, đảng phái, giáo hội, các đoàn thể xã hội... được hình thành trên một cơ sở hạ tầng nhất định",
     b: "Toàn bộ những quan điểm của xã hội",
@@ -3354,7 +3294,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 336,
+    num: 330,
     q: "Về bản chất, theo Ph.Ăngghen nhà nước là...",
     a: "Công cụ quyền lực quản lý xã hội vì mục đích chung",
     b: "Một bộ máy của một giai cấp này dùng để trấn áp một giai cấp khác",
@@ -3364,7 +3304,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 337,
+    num: 331,
     q: "Cơ sở làm phát sinh các quan hệ xã hội: chính trị, pháp luật... là do...",
     a: "Những quan hệ sản xuất vật chất của xã hội",
     b: "Trình độ nhận thức của con người ngày càng cao",
@@ -3374,7 +3314,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 338,
+    num: 332,
     q: "Thực chất của quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng là...",
     a: "Quan hệ giữa kinh tế và chính trị",
     b: "Quan hệ giữa đời sống vật chất và đời sống tinh thần",
@@ -3384,7 +3324,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 339,
+    num: 333,
     q: "Tính chất phụ thuộc của kiến trúc thượng tầng vào cơ sở hạ tầng có nguyên nhân từ...",
     a: "Tính tất yếu của tồn tại xã hội đối với ý thức xã hội",
     b: "Kiến trúc thượng tầng này sinh trên cơ sở hạ tầng",
@@ -3394,7 +3334,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 340,
+    num: 334,
     q: "Nhân tố nào trong kiến trúc thượng tầng có tác động trực tiếp nhất và mạnh mẽ nhất tới cơ sở hạ tầng kinh tế của xã hội?",
     a: "Các chính đảng",
     b: "Nhà nước",
@@ -3404,7 +3344,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 341,
+    num: 335,
     q: "Vai trò của kiến trúc thượng tầng đối với cơ sở hạ tầng?",
     a: "Kiến trúc thượng tầng quyết định cơ sở hạ tầng",
     b: "Kiến trúc thượng tầng chịu sự quyết định hoàn toàn của cơ sở hạ tầng",
@@ -3414,7 +3354,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 342,
+    num: 336,
     q: "Chọn phương án đúng nhất: Các yếu tố cấu thành tồn tại xã hội bao gồm?",
     a: "Phương thức sản xuất và điều kiện tự nhiên - hoàn cảnh địa lý",
     b: "Phương thức sản xuất, điều kiện tự nhiên và dân cư",
@@ -3424,7 +3364,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 343,
+    num: 337,
     q: "Khái niệm ý thức xã hội dùng để chỉ?",
     a: "Phương diện sinh hoạt vật chất của xã hội",
     b: "Phương diện sinh hoạt tinh thần của một giai cấp",
@@ -3434,7 +3374,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 344,
+    num: 338,
     q: "Mối quan hệ giữa ý thức xã hội và ý thức cá nhân là biểu thị mối quan hệ giữa?",
     a: "Nội dung và hình thức",
     b: "Cái chung và cái riêng",
@@ -3444,7 +3384,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 345,
+    num: 339,
     q: "Lựa chọn phương án đúng theo quan điểm triết học Mác - Lênin về đặc điểm tâm lý xã hội?",
     a: "Tâm lý xã hội là sự phản ánh trực tiếp và tự phát đối với hoàn cảnh sống của cộng đồng",
     b: "Tâm lý xã hội là sự phản ánh gián tiếp có tính tự phát thường ghi lại những mặt bề ngoài tồn tại xã hội",
@@ -3454,7 +3394,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 346,
+    num: 340,
     q: "Lựa chọn phương án đúng về đặc điểm của hệ tư tưởng?",
     a: "Hệ tư tưởng ra đời trực tiếp từ tâm lý xã hội",
     b: "Hệ tư tưởng là sự phản ánh gián tiếp và tự giác đối với tồn tại xã hội",
@@ -3464,7 +3404,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 347,
+    num: 341,
     q: "Lựa chọn phương án đúng về vai trò của tồn tại xã hội trong quan hệ biện chứng với ý thức xã hội?",
     a: "Ý thức xã hội hoàn toàn phụ thuộc một cách thụ động vào tồn tại xã hội",
     b: "Tồn tại xã hội quyết định ý thức xã hội, song ý thức xã hội vẫn có tính độc lập tương đối của nó",
@@ -3474,7 +3414,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 348,
+    num: 342,
     q: "Lựa chọn phương án sai về tính độc lập tương đối của ý thức xã hội?",
     a: "Các loại hình thái ý thức xã hội tác động qua lại lẫn nhau trong quá trình phát triển",
     b: "Mọi hình thái ý thức xã hội luôn luôn lạc hậu hơn so với tồn tại xã hội",
@@ -3484,7 +3424,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 349,
+    num: 343,
     q: "Lựa chọn phương án đúng về tính độc lập tương đối của ý thức xã hội?",
     a: "Những tư tưởng khoa học tiên tiến có thể vượt trước sự phát triển của tồn tại xã hội nên có thể thoát ly tồn tại xã hội",
     b: "Tồn tại xã hội thay đổi nhưng có một số bộ phận của ý thức xã hội chưa thay đổi ngay cùng với tồn tại xã hội",
@@ -3494,7 +3434,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 350,
+    num: 344,
     q: "Chọn phương án đúng nhất: Đâu là cấu trúc của một hình thái kinh tế - xã hội?",
     a: "Lực lượng sản xuất và quan hệ sản xuất",
     b: "Lực lượng sản xuất, quan hệ sản xuất và kiến trúc thượng tầng",
@@ -3504,7 +3444,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 351,
+    num: 345,
     q: "Điền thêm từ vào câu sau đây và xác định đó là luận điểm của ai? “Sự phát triển của các hình thái kinh tế - xã hội là một quá trình...”.",
     a: "Lịch sử tất yếu theo quy luật/ V.I. Lênin",
     b: "Lịch sử đi lên/ Ph. Ăngghen",
@@ -3514,7 +3454,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 352,
+    num: 346,
     q: "Khẳng định tính lịch sử - tự nhiên của sự phát triển các hình thái kinh tế - xã hội tức là khẳng định sự phát triển của xã hội...",
     a: "Hoàn toàn chỉ tuân theo quy luật khách quan của giới tự nhiên",
     b: "Duy nhất chỉ tuân theo quy luật khách quan của xã hội",
@@ -3524,7 +3464,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 353,
+    num: 347,
     q: "Việc lật đổ một chế độ chính trị đã lỗi thời và thiết lập một chế độ chính trị tiến bộ hơn của giai cấp cách mạng được gọi là?",
     a: "Đảo chính",
     b: "Cách mạng xã hội",
@@ -3534,7 +3474,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 354,
+    num: 348,
     q: "Theo chủ nghĩa duy vật lịch sử, lịch sử loài người là một tiến trình nối tiếp nhau tuần tự từ thấp đến cao của các hình thái kinh tế - xã hội:",
     a: "Cộng sản nguyên thủy - Phong kiến - Chiếm hữu nô lệ - Tư bản chủ nghĩa - Cộng sản chủ nghĩa.",
     b: "Cộng sản nguyên thủy - Phong kiến - Tư bản chủ nghĩa - Chiếm hữu nô lệ - Cộng sản chủ nghĩa",
@@ -3544,7 +3484,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 355,
+    num: 349,
     q: "Theo chủ nghĩa duy vật lịch sử, ba yếu tố cơ bản của hình thái kinh tế - xã hội tác động biện chứng, tạo thành các quy luật cơ bản chi phối sự vận động, phát triển của lịch sử xã hội là:",
     a: "lực lượng sản xuất; quan hệ sản xuất; kiến trúc thượng tầng",
     b: "tồn tại xã hội, ý thức xã hội, cơ sở hạ tầng",
@@ -3554,7 +3494,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 356,
+    num: 350,
     q: "Theo C.Mác, trong tính hiện thực của nó, bản chất con người là?",
     a: "Tính thiện",
     b: "Tổng hòa những quan hệ xã hội",
@@ -3564,7 +3504,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 357,
+    num: 351,
     q: "Theo quan điểm của triết học Mác – Lênin:",
     a: "Lịch sử được quyết định bởi quần chúng nhân dân",
     b: "Lịch sử được quyết định bởi mệnh trời",
@@ -3574,7 +3514,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 358,
+    num: 352,
     q: "Cơ sở trực tiếp hình thành và phân chia giai cấp trong xã hội là do:",
     a: "Chiếm đoạt tư liệu sản xuất của công thành của riêng",
     b: "Chiến tranh của các bộ lạc",
@@ -3584,7 +3524,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 359,
+    num: 353,
     q: "Theo quan điểm của triết học Mác-Lênin, trong thời đại ngày nay, hình thái ý thức xã hội nào có sự tác động mạnh mẽ và sâu sắc đối với các hình thái ý thức xã hội khác?",
     a: "Đạo đức",
     b: "Tôn giáo",
@@ -3594,7 +3534,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 360,
+    num: 354,
     q: "Theo quan điểm của triết học Mác-Lênin, cơ sở để xác định sự khác nhau của các giai cấp trong một xã hội nhất định là gì?",
     a: "Giới tính",
     b: "Quan hệ sản xuất",
@@ -3604,7 +3544,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 361,
+    num: 355,
     q: "Điền từ thích hợp vào chỗ trống: Tiến trình phát triển của lịch sử loài người (sự thay thế lẫn nhau giữa các hình thái kinh tế - xã hội) là một quá trình ...",
     a: "xã hội – tự nhiên",
     b: "tự nhiên – xã hội",
@@ -3614,7 +3554,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 362,
+    num: 356,
     q: "Điền vào chỗ trống: Hình thái kinh tế - xã hội là phạm trù triết học dùng để chỉ xã hội ở một giai đoạn lịch sử nhất định, với một kiểu ...đặc trưng cho xã hội đó, phù hợp với một trình độ nhất định của lực lượng sản xuất và một kiến trúc thượng tầng tương ứng được xây dựng trên những quan hệ sản xuất ấy.",
     a: "quan hệ sở hữu",
     b: "quan hệ tổ chức, quản lý",
@@ -3624,7 +3564,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 363,
+    num: 357,
     q: "Điền vào chỗ trống: Hình thái kinh tế - xã hội là phạm trù triết học dùng để chỉ xã hội ở một giai đoạn lịch sử nhất định, với một kiểu...đặc trưng cho xã hội đó, phù hợp với một trình độ nhất định của ... và một...tương ứng được xây dựng trên những quan hệ sản xuất ấy.",
     a: "kiến trúc thượng tầng...cơ sở hạ tầng... lực lượng sản xuất",
     b: "quan hệ sản xuất... lực lượng sản xuất...kiến trúc thượng tầng",
@@ -3634,7 +3574,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 364,
+    num: 358,
     q: "Điền vào chỗ trống: Hình thái kinh tế - xã hội là phạm trù triết học dùng để chỉ xã hội ở một giai đoạn lịch sử nhất định, với một kiểu quan hệ sản xuất đặc trưng cho xã hội đó, phù hợp với một trình độ nhất định của và một kiến trúc thượng tầng tương ứng được xây dựng trên những quan hệ sản xuất ấy.",
     a: "người lao động",
     b: "lực lượng sản xuất",
@@ -3644,7 +3584,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 365,
+    num: 359,
     q: "Điền từ thích hợp vào chỗ trống ... về tư liệu sản xuất là quan hệ giữa các tập đoàn người trong việc chiếm hữu, sử dụng các tư liệu sản xuất xã hội",
     a: "Quan hệ sở hữu",
     b: "Quan hệ quản lý",
@@ -3654,7 +3594,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 366,
+    num: 360,
     q: "Chọn phương án đúng nhất để điền từ thích hợp vào chỗ trống: Quan hệ sở hữu về ... là quan hệ giữa các tập đoàn người trong việc chiếm hữu, sử dụng các tư liệu sản xuất xã hội",
     a: "Tư liệu sinh hoạt",
     b: "Tư liệu sản xuất",
@@ -3664,7 +3604,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 367,
+    num: 361,
     q: "Theo chủ nghĩa duy vật lịch sử, trong xã hội có giai cấp:",
     a: "Bất cứ giai cấp nào cũng có thể làm cho hệ tư tưởng của nó trở thành hệ tư tưởng thống trị trong toàn xã hội",
     b: "Chỉ có đội ngũ trí thức mới có thể làm cho hệ tư tưởng của nó trở thành hệ tư tưởng thống trị trong toàn xã hội",
@@ -3674,7 +3614,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 368,
+    num: 362,
     q: "Theo quan điểm của chủ nghĩa duy vật tầm thường, yếu tố duy nhất quyết định sự phát triển của xã hội là:",
     a: "Kinh tế",
     b: "Sản xuất tinh thần",
@@ -3684,7 +3624,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 369,
+    num: 363,
     q: "Xét đến cùng nhân tố quyết định sự thắng lợi của một chế độ xã hội mới theo quan điểm của chủ nghĩa duy vật lịch sử là:",
     a: "Sức mạnh của nhà nước",
     b: "Sức mạnh của pháp luật",
@@ -3694,7 +3634,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 370,
+    num: 364,
     q: "Điền cụm từ vào chỗ trống sau: Theo chủ nghĩa duy vật lịch sử, cơ sở hạ tầng là phương diện ... của xã hội.",
     a: "Kinh tế",
     b: "Chính trị",
@@ -3704,7 +3644,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 371,
+    num: 365,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất là ... của sự vận động và phát triển xã hội.",
     a: "Quy luật cơ bản nhất",
     b: "Quy luật đặc thù",
@@ -3714,7 +3654,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 372,
+    num: 366,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Sự phù hợp giữa quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất đòi hỏi tất yếu thiết lập ... về tư liệu sản xuất chủ yếu.",
     a: "chế độ tư hữu tư bản chủ nghĩa",
     b: "chế độ công hữu",
@@ -3724,7 +3664,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 373,
+    num: 367,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: ...là toàn bộ những quan hệ sản xuất của một xã hội trong sự vận động hiện thực của chúng hợp thành cơ cấu kinh tế của xã hội đó.",
     a: "Cơ sở hạ tầng",
     b: "Quan hệ sản xuất",
@@ -3734,7 +3674,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 374,
+    num: 368,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Trong cơ sở hạ tầng, QHSX ...đặc trưng cho cơ sở hạ tầng của xã hội đó.",
     a: "tàn dư",
     b: "mầm móng (mới)",
@@ -3744,7 +3684,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 375,
+    num: 369,
     q: "Điền từ thích hợp vào chỗ trống ...là tổng thể các giai cấp và mối quan hệ giữa các giai cấp tồn tại trong một giai đoạn lịch sử nhất định.",
     a: "Kết cấu kinh tế",
     b: "Kết cấu văn hóa",
@@ -3754,7 +3694,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 376,
+    num: 370,
     q: "Điền từ thích hợp vào những chỗ trống: Kết cấu xã hội - giai cấp là tổng thể các ... và mối quan hệ giữa các ...tồn tại trong một giai đoạn lịch sử nhất định.",
     a: "giai cấp/dân tộc",
     b: "thiết chế/giai cấp",
@@ -3764,7 +3704,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 377,
+    num: 371,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, tồn tại xã hội bao gồm những yếu tố:",
     a: "Lực lượng sản xuất, điều kiện tự nhiên, dân cư",
     b: "Quan hệ sản xuất, điều kiện tự nhiên - hoàn cảnh địa lý, dân cư",
@@ -3774,7 +3714,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 378,
+    num: 372,
     q: "Theo chủ nghĩa duy vật lịch sử, chủ thể chân chính sáng tạo ra lịch sử là:",
     a: "Cá nhân",
     b: "Lãnh tụ",
@@ -3784,7 +3724,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 379,
+    num: 373,
     q: "Theo chủ nghĩa duy vật lịch sử, nếu quan hệ sản xuất không phù hợp với trình độ phát triển của lực lượng sản xuất, thì...",
     a: "Thúc đẩy sự phát triển của lực lượng sản xuất",
     b: "Kim hãm sự phát triển của lực lượng sản xuất",
@@ -3794,7 +3734,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 380,
+    num: 374,
     q: "Điền từ vào chỗ trống: Sản xuất vật chất là quá trình con người sử dụng...tác động vào tự nhiên, cải biến các dạng vật chất của giới tự nhiên nhằm tạo ra của cải vật chất thỏa mãn nhu cầu tồn tại và phát triển của con người.",
     a: "Công cụ lao động",
     b: "Sức mạnh tinh thần",
@@ -3804,7 +3744,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 381,
+    num: 375,
     q: "Sản xuất xã hội bao gồm:",
     a: "Sản xuất vật chất",
     b: "Sản xuất tinh thần",
@@ -3814,7 +3754,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 382,
+    num: 376,
     q: "Trong quan hệ sản xuất, quan hệ nào giữ vai trò quyết định?",
     a: "Quan hệ tổ chức, quản lý quá trình sản xuất",
     b: "Quan hệ sở hữu tư liệu sản xuất",
@@ -3824,7 +3764,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 383,
+    num: 377,
     q: "Điền từ vào chỗ trống: ... là tổng hợp các quan hệ kinh tế - vật chất giữa người với người trong quá trình sản xuất vật chất.",
     a: "Kiến thức thượng tầng",
     b: "Quan hệ sản xuất",
@@ -3834,27 +3774,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 384,
-    q: "Điền từ vào chỗ trống: Sản xuất vật chất là quá trình con người sử dụng...tác động vào tự nhiên, cải biến các dạng vật chất của giới tự nhiên nhằm tạo ra của cải vật chất thỏa mãn nhu cầu tồn tại và phát triển của con người.",
-    a: "Công cụ lao động",
-    b: "Sức mạnh tinh thần",
-    c: "Đối tượng lao động",
-    d: "Năng suất lao động",
-    ans: "a",
-    chapter: "ch3",
-  },
-  {
-    num: 385,
-    q: "Sản xuất xã hội bao gồm:",
-    a: "Sản xuất vật chất",
-    b: "Sản xuất tinh thần",
-    c: "Sản xuất ra bản thân con người",
-    d: "Cả A, B, C",
-    ans: "d",
-    chapter: "ch3",
-  },
-  {
-    num: 386,
+    num: 378,
     q: "Điền thuật ngữ thích hợp vào chỗ trống: Lực lượng sản xuất là sự kết hợp giữa... tạo ra sức sản xuất và năng lực thực tiễn làm biến đổi các đối tượng vật chất của giới tự nhiên theo nhu cầu nhất định của con người và xã hội.",
     a: "người lao động với tư liệu sản xuất",
     b: "cơ sở hạ tầng và kiến trúc thượng tầng",
@@ -3864,7 +3784,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 387,
+    num: 379,
     q: "Điền từ thích hợp vào chỗ trống...là điều kiện vật chất cần thiết để tổ chức sản xuất, bao gồm tư liệu lao động và đối tượng lao động.",
     a: "Quan hệ lao động",
     b: "Tư liệu sản xuất",
@@ -3874,7 +3794,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 388,
+    num: 380,
     q: "Điền từ thích hợp vào chỗ trống...là những yếu tố vật chất của sản xuất mà lao động con người dùng tư liệu lao động tác động lên, nhằm biến đổi chúng cho phù hợp với mục đích sử dụng của con người.",
     a: "Đối tượng lao động",
     b: "Người lao động",
@@ -3884,7 +3804,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 389,
+    num: 381,
     q: "Điền từ thích hợp vào chỗ trống ...là những phương tiện vật chất mà con người trực tiếp sử dụng để tác động vào đối tượng lao động nhằm biến đổi chúng nhằm tạo ra của cải vật chất phục vụ nhu cầu con người và xã hội.",
     a: "Quan hệ sản xuất",
     b: "Công cụ lao động",
@@ -3894,7 +3814,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 390,
+    num: 382,
     q: "Điền từ thích hợp vào chỗ trống: Tính chất của lực lượng sản xuất nói lên tính chất cá nhân hoặc tính chất xã hội hoá trong việc sử dụng...",
     a: "Người lao động",
     b: "Tư liệu sản xuất",
@@ -3904,7 +3824,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 391,
+    num: 383,
     q: "Điền từ thích hợp vào chỗ trống: Quan hệ sản xuất là tổng hợp các ...giữa người với người trong quá trình sản xuất vật chất.",
     a: "Quan hệ chính trị - xã hội",
     b: "Quan hệ tinh thần – tưởng",
@@ -3914,7 +3834,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 392,
+    num: 384,
     q: "Theo C. Mác, sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên. Nghĩa là:",
     a: "Sự phát triển của lịch sử nhân loại chỉ do các quy luật tự nhiên chi phối",
     b: "Sự phát triển của lịch sử nhân loại theo mục đích đã được định sẵn của lực lượng siêu tự nhiên",
@@ -3924,7 +3844,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 393,
+    num: 385,
     q: "Sự thay đổi của kiến trúc thượng tầng chỉ có nguyên nhân duy nhất từ sự thay đổi của cơ sở hạ tầng. Ý kiến đó ĐÚNG hay SAI? Vì sao?",
     a: "Đúng, vì cơ sở hạ tầng như thế nào thì kiến trúc thượng tầng như thế ấy",
     b: "Sai, vì kiến trúc thượng tầng quyết định cơ sở hạ tầng",
@@ -3934,7 +3854,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 394,
+    num: 386,
     q: "Mâu thuẫn đối kháng giữa các giai cấp là do...",
     a: "Sự khác nhau về tư tưởng, lối sống",
     b: "Sự đối lập về lợi ích cơ bản – lợi ích kinh tế",
@@ -3944,7 +3864,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 395,
+    num: 387,
     q: "Theo chủ nghĩa duy vật lịch sử, giai cấp nắm giữ quyền lực nhà nước là giai cấp:",
     a: "Có tư tưởng cách mạng nhất",
     b: "Đại biểu cho ý chí của tất cả các giai cấp xã hội",
@@ -3954,7 +3874,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 396,
+    num: 388,
     q: "Điền từ thích hợp vào chỗ trống: ...về tư liệu sản xuất là quan hệ giữa các tập đoàn người trong việc chiếm hữu, sử dụng các tư liệu sản xuất xã hội",
     a: "Quan hệ sở hữu",
     b: "Quan hệ quản lý",
@@ -3964,7 +3884,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 397,
+    num: 389,
     q: "Vai trò của đấu tranh giai cấp trong lịch sử nhân loại?",
     a: "Là động lực cơ bản của sự phát triển xã hội.",
     b: "Là một động lực quan trọng của sự phát triển xã hội trong các xã hội có giai cấp",
@@ -3974,47 +3894,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 398,
-    q: "Chọn phương án đúng nhất để điền từ thích hợp vào chỗ trống: Quan hệ sở hữu về ... là quan hệ giữa các tập đoàn người trong việc chiếm hữu, sử dụng các tư liệu sản xuất xã hội",
-    a: "Tư liệu sinh hoạt",
-    b: "Tư liệu sản xuất",
-    c: "Tư liệu tiêu dùng",
-    d: "Không có đáp án đúng",
-    ans: "b",
-    chapter: "ch3",
-  },
-  {
-    num: 399,
-    q: "Theo chủ nghĩa duy vật lịch sử, trong xã hội có giai cấp:",
-    a: "Bất cứ giai cấp nào cũng có thể làm cho hệ tư tưởng của nó trở thành hệ tư tưởng thống trị trong toàn xã hội",
-    b: "Chỉ có đội ngũ trí thức mới có thể làm cho hệ tư tưởng của nó trở thành hệ tư tưởng thống trị trong toàn xã hội",
-    c: "Chỉ có giai cấp nắm quyền sở hữu tư liệu sản xuất chủ yếu mới có thể làm cho hệ tư tưởng của nó trở thành hệ tư tưởng thống trị trong toàn xã hội",
-    d: "Chỉ có giai cấp ưu tú trong xã hội mới có thể làm cho hệ tư tưởng của nó trở thành tư tưởng thống trị trong toàn xã hội",
-    ans: "c",
-    chapter: "ch3",
-  },
-  {
-    num: 400,
-    q: "Theo quan điểm của chủ nghĩa duy vật tầm thường, yếu tố duy nhất quyết định sự phát triển của xã hội là:",
-    a: "Kinh tế",
-    b: "Sản xuất tinh thần",
-    c: "Điều kiện tự nhiên",
-    d: "Dân số",
-    ans: "a",
-    chapter: "ch3",
-  },
-  {
-    num: 401,
-    q: "Xét đến cùng nhân tố quyết định sự thắng lợi của một chế độ xã hội mới theo quan điểm của chủ nghĩa duy vật lịch sử là:",
-    a: "Sức mạnh của nhà nước",
-    b: "Sức mạnh của pháp luật",
-    c: "Năng suất lao động xã hội",
-    d: "Hiệu quả hoạt động của hệ thống chính trị",
-    ans: "c",
-    chapter: "ch3",
-  },
-  {
-    num: 402,
+    num: 390,
     q: "Khái niệm nào sau đây được dùng để chỉ một cộng đồng người ổn định được hình thành trong lịch sử trong một lãnh thổ nhất định, có chung mối liên hệ về kinh tế, ngôn ngữ và một nền văn hóa?",
     a: "Bộ lạc",
     b: "Dân tộc",
@@ -4024,7 +3904,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 403,
+    num: 391,
     q: "Theo chủ nghĩa duy vật lịch sử, sự phân chia giai cấp có nguồn gốc trực tiếp từ:",
     a: "Chế độ chiếm hữu tư nhân về tư liệu sản xuất",
     b: "Chiến tranh",
@@ -4034,7 +3914,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 404,
+    num: 392,
     q: "Chọn phương án đúng nhất để điền từ thích hợp vào chỗ trống: ...là quan hệ giữa các tập đoàn người trong việc tổ chức sản xuất và phân công lao động.",
     a: "Quan hệ sở hữu",
     b: "Quan hệ tổ chức, quản lý",
@@ -4044,7 +3924,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 405,
+    num: 393,
     q: "Chọn phương án đúng nhất để điền từ thích hợp vào chỗ trống: ...là quan hệ giữa các tập đoàn người trong việc phân phối sản phẩm lao động xã hội, nói lên cách thức và quy mô của cái vật chất mà các tập đoàn người được hưởng.",
     a: "Quan hệ về phân phối sản phẩm lao động",
     b: "Quan hệ tổ chức, quản lý",
@@ -4054,7 +3934,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 406,
+    num: 394,
     q: "Chọn phương án SAI: Theo chủ nghĩa duy vật lịch sử, nhà nước...",
     a: "Ra đời cùng sự xuất hiện của con người",
     b: "Là sản phẩm và biểu hiện của những mâu thuẫn đối kháng giai cấp không thể điều hòa được",
@@ -4064,7 +3944,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 407,
+    num: 395,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Lực lượng sản xuất là tổng hợp các yếu tố ... và ... tạo thành sức mạnh thực tiễn cải biến giới tự nhiên theo nhu cầu sinh tồn, phát triển của con người.",
     a: "Người lao động/công cụ lao động",
     b: "Vật chất/tinh thần",
@@ -4074,17 +3954,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 408,
-    q: "Điền cụm từ vào chỗ trống sau: Theo chủ nghĩa duy vật lịch sử, cơ sở hạ tầng là phương diện ... của xã hội.",
-    a: "Kinh tế",
-    b: "Chính trị",
-    c: "Xã hội",
-    d: "Văn hóa",
-    ans: "a",
-    chapter: "ch3",
-  },
-  {
-    num: 409,
+    num: 396,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất là ...của sự vận động và phát triển xã hội.",
     a: "Quy luật cơ bản nhất",
     b: "Quy luật đặc thù",
@@ -4094,7 +3964,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 410,
+    num: 397,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Sự phù hợp giữa quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất đòi hỏi tất yếu thiết lập...về tư liệu sản xuất chủ yếu.",
     a: "chế độ tư hữu tư bản chủ nghĩa",
     b: "chế độ công hữu",
@@ -4104,7 +3974,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 411,
+    num: 398,
     q: "Theo chủ nghĩa duy vật lịch sử, cách mạng xã hội giữ vai trò là một trong những...của sự phát triển xã hội.",
     a: "Hình thức, động lực",
     b: "Phương thức, động lực",
@@ -4114,7 +3984,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 412,
+    num: 399,
     q: "Điền cụm từ đúng nhất: Theo nghĩa hẹp, ... là việc lật đổ một chế độ chính trị đã lỗi thời và thiết lập một chế độ chính trị tiến bộ hơn của giai cấp cách mạng.",
     a: "Cách mạng xã hội",
     b: "Cách mạng khoa học và công nghệ",
@@ -4124,7 +3994,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 413,
+    num: 400,
     q: "Theo chủ nghĩa duy vật lịch sử: Yếu tố nào sau đây KHÔNG thuộc cấu trúc của hình thái kinh tế - xã hội?",
     a: "Lực lượng sản xuất",
     b: "Quan hệ sản xuất",
@@ -4134,17 +4004,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 414,
-    q: "Điền cụm từ thích hợp vào chỗ trống sau: ...là toàn bộ những quan hệ sản xuất của một xã hội trong sự vận động hiện thực của chúng hợp thành cơ cấu kinh tế của xã hội đó.",
-    a: "Cơ sở hạ tầng",
-    b: "Quan hệ sản xuất",
-    c: "Lực lượng sản xuất",
-    d: "Kiến trúc thượng tầng",
-    ans: "a",
-    chapter: "ch3",
-  },
-  {
-    num: 415,
+    num: 401,
     q: "Điền cụm từ thích hợp vào chỗ trống sau: Trong cơ sở hạ tầng, quan hệ sản xuất...đặc trưng cho cơ sở hạ tầng của xã hội đó.",
     a: "tàn dư",
     b: "mầm móng (mới)",
@@ -4154,7 +4014,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 416,
+    num: 402,
     q: "Chọn phương án đúng nhất: Xuất phát từ cơ sở lý luận nào của chủ nghĩa Mác - Lênin, Đảng Cộng sản Việt Nam khẳng định: Việt Nam thực hiện quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa?",
     a: "Học thuyết giai cấp và đấu tranh giai cấp",
     b: "Lí luận về cách mạng xã hội",
@@ -4164,7 +4024,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 417,
+    num: 403,
     q: "Điền cụm từ đúng vào những chỗ trống sau: Khái niệm ý thức xã hội dùng để chỉ phương diện sinh hoạt tinh thần của xã hội, nảy sinh từ ... và phản ánh ... trong những giai đoạn phát triển nhất định.",
     a: "tồn tại xã hội/ý thức xã hội",
     b: "lực lượng sản xuất và quan hệ sản xuất",
@@ -4174,7 +4034,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 418,
+    num: 404,
     q: "Điền cụm từ đúng: Khái niệm ... dùng để chỉ toàn bộ những tri thức, những quan niệm của những con người trong một cộng đồng người nhất định, được hình thành trực tiếp từ hoạt động thực tiễn hàng ngày, chưa được hệ thống hóa, khái quát hóa thành lí luận.",
     a: "ý thức lí luận",
     b: "ý thức chính trị",
@@ -4184,7 +4044,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 419,
+    num: 405,
     q: "Điền cụm từ đúng: Khái niệm ... là những tư tưởng, quan điểm đã được hệ thống hóa, khái quát hóa thành các học thuyết xã hội, được trình bày dưới dạng những khái niệm, phạm trù, quy luật.",
     a: "ý thức lý luận",
     b: "tâm lý xã hội",
@@ -4194,7 +4054,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 420,
+    num: 406,
     q: "Theo chủ nghĩa duy vật lịch sử: Sự ra đời và tồn tại của Nhà nước nhằm...",
     a: "Điều hòa mâu thuẫn giai cấp",
     b: "Giải quyết mâu thuẫn giai cấp",
@@ -4204,7 +4064,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 421,
+    num: 407,
     q: "Theo chủ nghĩa duy vật lịch sử, bộ máy tổ chức quyền lực và thực thi quyền lực đặc biệt của xã hội trong điều kiện xã hội có đối kháng giai cấp là...",
     a: "Các đảng phái",
     b: "Giáo hội",
@@ -4214,7 +4074,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 422,
+    num: 408,
     q: "Nhà nước đầu tiên trong lịch sử là kiểu nhà nước nào?",
     a: "Nhà nước phong kiến",
     b: "Nhà nước chủ nô",
@@ -4224,7 +4084,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 423,
+    num: 409,
     q: "Theo chủ nghĩa duy vật lịch sử, nguyên nhân sâu xa của sự phát triển của các hình thái kinh tế - xã hội trong lịch sử là:",
     a: "Ý muốn chủ quan của con người",
     b: "Sự phát triển của quan hệ sản xuất",
@@ -4234,7 +4094,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 424,
+    num: 410,
     q: "Điền cụm từ đúng: Khái niệm ... là toàn bộ đời sống tình cảm, tâm trạng, khát vọng, ý chí của những người trong cộng đồng người nhất định; phản ánh trực tiếp và tự phát đối với hoàn cảnh sống của họ.",
     a: "ý thức lí luận",
     b: "ý thức chính trị",
@@ -4244,7 +4104,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 425,
+    num: 411,
     q: "Điền cụm từ đúng: Khái niệm ... là toàn bộ các hệ thống quan niệm, quan điểm xã hội như: chính trị, triết học, đạo đức, nghệ thuật, tôn giáo; là sự phản ánh gián tiếp và tự giác đối với tồn tại xã hội.",
     a: "ý thức xã hội thông thường",
     b: "tâm lý xã hội",
@@ -4254,7 +4114,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 426,
+    num: 412,
     q: "Điền cụm từ đúng vào chỗ trống: Cơ sở hạ tầng là toàn bộ những quan hệ sản xuất của một xã hội trong sự vận động hiện thực của chúng hợp thành ... của xã hội đó.",
     a: "cơ cấu kinh tế",
     b: "cơ cấu giai cấp",
@@ -4264,7 +4124,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 427,
+    num: 413,
     q: "Điền cụm từ đúng vào chỗ trống sau: Khái niệm dùng để chỉ toàn bộ hệ thống kết cấu các hình thái ý thức xã hội cùng với các thiết chế chính trị - xã hội tương ứng, được hình thành trên một cơ sở hạ tầng nhất định.",
     a: "cơ sở hạ tầng",
     b: "kiến trúc thượng tầng",
@@ -4274,7 +4134,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 428,
+    num: 414,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, tiêu chuẩn khách quan để phân biệt các thời đại kinh tế là:",
     a: "Người lao động",
     b: "Công cụ lao động",
@@ -4284,7 +4144,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 429,
+    num: 415,
     q: "Theo chủ nghĩa duy vật lịch sử, nguồn gốc, động lực cơ bản nhất của mọi quá trình vận động, phát triển xã hội là:",
     a: "Sự phát triển của quan hệ sản xuất",
     b: "Sự phát triển của nhà nước",
@@ -4294,7 +4154,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 430,
+    num: 416,
     q: "Theo chủ nghĩa duy vật lịch sử, trong kiến trúc thượng tầng của một xã hội có giai cấp, yếu tố tác động mạnh mẽ và trực tiếp nhất tới cơ sở hạ tầng là:",
     a: "Ý thức tôn giáo",
     b: "Ý thức khoa học",
@@ -4304,7 +4164,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 431,
+    num: 417,
     q: "Theo Ph. Ăngghen, điểm khác nhau căn bản, phân biệt loài người với loài vật là:",
     a: "Ý thức",
     b: "Ngôn ngữ",
@@ -4314,7 +4174,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 432,
+    num: 418,
     q: "Điền từ thích hợp vào chỗ trống: Những biến đổi căn bản của ... sớm hay muộn sẽ dẫn đến sự biến đổi căn bản trong kiến trúc thượng tầng.",
     a: "Cơ sở hạ tầng",
     b: "Kiến trúc thượng tầng",
@@ -4324,7 +4184,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 433,
+    num: 419,
     q: "Điền từ thích hợp vào chỗ trống: Cơ sở kinh tế của bộ lạc là ... về đất đai và công cụ sản xuất.",
     a: "chế độ công hữu",
     b: "chế độ tư hữu",
@@ -4334,7 +4194,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 434,
+    num: 420,
     q: "Quan điểm cho rằng, tồn tại xã hội quyết định ý thức xã hội nhưng đồng thời ý thức xã hội lại có tính độc lập tương đối là quan điểm của...",
     a: "chủ nghĩa duy vật lịch sử",
     b: "chủ nghĩa duy tâm",
@@ -4344,7 +4204,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 435,
+    num: 421,
     q: "Điền từ vào chỗ trống: Chọn câu trả lời đúng theo quan điểm của Ph. Ăngghen: Con người là một động vật...",
     a: "biết tư duy",
     b: "biết ứng xử",
@@ -4354,7 +4214,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 436,
+    num: 422,
     q: "Theo chủ nghĩa duy vật lịch sử, giữa lực lượng sản xuất và quan hệ sản xuất thì...",
     a: "Quan hệ sản xuất quyết định lực lượng sản xuất",
     b: "Lực lượng sản xuất và quan hệ sản xuất tồn tại biệt lập, tách rời",
@@ -4364,7 +4224,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 437,
+    num: 423,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, trong mối quan hệ giữa tồn tại xã hội và ý thức xã hội thì:",
     a: "Tồn tại xã hội quyết định ý thức xã hội",
     b: "Ý thức xã hội quyết định tồn tại xã hội",
@@ -4374,7 +4234,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 438,
+    num: 424,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố cơ bản nhất của tồn tại xã hội là... ?",
     a: "Phương thức sản xuất vật chất",
     b: "Điều kiện tự nhiên - hoàn cảnh địa lý",
@@ -4384,7 +4244,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 439,
+    num: 425,
     q: "Theo chủ nghĩa duy vật lịch sử, cơ sở hạ tầng của xã hội dùng để chỉ:",
     a: "Hệ thống điện, đường, trường, trạm...",
     b: "Cơ sở vật chất của xã hội",
@@ -4394,7 +4254,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 440,
+    num: 426,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, trong xã hội có giai cấp, ý thức xã hội luôn luôn:",
     a: "Không mang tính giai cấp",
     b: "Mang bản chất của giai cấp thống trị",
@@ -4404,7 +4264,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 441,
+    num: 427,
     q: "Điền từ vào chỗ trống: Trong nhận thức và thực tiễn, nếu tuyệt đối hoá kinh tế, hạ thấp hoặc phủ nhận yếu tố chính trị là rơi vào ...",
     a: "chủ nghĩa duy vật biện chứng",
     b: "chủ nghĩa duy vật tầm thường",
@@ -4414,7 +4274,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 442,
+    num: 428,
     q: "Điền từ vào chỗ trống: Trong nhận thức và thực tiễn, nếu tuyệt đối hoá về chính trị, hạ thấp hoặc phủ định vai trò của kinh tế sẽ dẫn đến ...",
     a: "chủ nghĩa duy vật biện chứng",
     b: "chủ nghĩa duy vật tầm thường",
@@ -4424,7 +4284,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 443,
+    num: 429,
     q: "Theo chủ nghĩa duy vật lịch sử, nếu quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất, thì...",
     a: "Thúc đẩy sự phát triển của lực lượng sản xuất",
     b: "Kim hãm sự phát triển của lực lượng sản xuất",
@@ -4434,7 +4294,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 444,
+    num: 430,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, trình độ của lực lượng sản xuất thể hiện ở:",
     a: "Trình độ công cụ lao động và người lao động",
     b: "Trình độ tổ chức và phân công lao động xã hội",
@@ -4444,7 +4304,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 445,
+    num: 431,
     q: "Chọn phương án đúng nhất: Mục tiêu cuối cùng của đấu tranh giai cấp của giai cấp vô sản trong thời kì quá độ lên CNXH ở Việt Nam là [...].",
     a: "Xây dựng thành công CNXH",
     b: "Xây dựng cơ sở vật chất",
@@ -4454,7 +4314,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 446,
+    num: 432,
     q: "Chọn phương án đúng nhất: Đấu tranh giai cấp đạt tới đỉnh cao thường dẫn đến [...].",
     a: "Thỏa hiệp",
     b: "Cách mạng xã hội",
@@ -4464,7 +4324,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 447,
+    num: 433,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, yếu tố nào trong tư liệu sản xuất thường xuyên biến đổi nhất?",
     a: "Con người và công cụ lao động",
     b: "Đối tượng lao động và tư liệu lao động",
@@ -4474,7 +4334,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 448,
+    num: 434,
     q: "Điền từ vào chỗ trống: Trong thời kỳ đổi mới đất nước, Đảng Cộng sản Việt Nam chủ trương đổi mới toàn diện cả ...",
     a: "kinh tế và chính trị",
     b: "văn hóa và xã hội",
@@ -4484,7 +4344,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 449,
+    num: 435,
     q: "Điền từ thích hợp vào chỗ trống: Nguồn gốc trực tiếp dẫn đến sự xuất hiện giai cấp là do sự ra đời và tồn tại của ...",
     a: "chế độ chiếm hữu tư nhân về tư liệu sản xuất",
     b: "chế độ công hữu về tư liệu sản xuất",
@@ -4494,7 +4354,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 450,
+    num: 436,
     q: "Điền từ thích hợp vào chỗ trống: Nguồn gốc sâu xa dẫn đến sự xuất hiện giai cấp là do sự phát triển của ...",
     a: "quan hệ sản xuất",
     b: "lực lượng sản xuất",
@@ -4504,7 +4364,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 451,
+    num: 437,
     q: "Theo chủ nghĩa duy vật lịch sử, chủ thể chân chính sáng tạo ra lịch sử là:",
     a: "Cá nhân",
     b: "Lãnh tụ",
@@ -4514,7 +4374,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 452,
+    num: 438,
     q: "Theo chủ nghĩa duy vật lịch sử, nếu quan hệ sản xuất không phù hợp với trình độ phát triển của lực lượng sản xuất, thì...",
     a: "Thúc đẩy sự phát triển của lực lượng sản xuất",
     b: "Kim hãm sự phát triển của lực lượng sản xuất",
@@ -4524,7 +4384,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 453,
+    num: 439,
     q: "Chọn phương án trả lời đúng nhất điền vào chỗ trống sau: Đấu tranh giai cấp là tất yếu do sự đối lập về... căn bản không thể điều hoà được giữa các giai cấp.",
     a: "Tư tưởng",
     b: "Văn hóa",
@@ -4534,7 +4394,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 454,
+    num: 440,
     q: "Chọn phương án trả lời đúng nhất điền vào chỗ trống sau: Nội dung của cuộc đấu tranh giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam hiện nay là thực hiện thắng lợi mục tiêu độc lập dân tộc và ..., xây dựng một xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh.",
     a: "chủ nghĩa xã hội",
     b: "chủ nghĩa tư bản",
@@ -4544,7 +4404,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 455,
+    num: 441,
     q: "Theo chủ nghĩa duy vật lịch sử, bộ máy tổ chức quyền lực và thực thi quyền lực đặc biệt của xã hội trong điều kiện xã hội có đối kháng giai cấp là...",
     a: "Các đảng phái",
     b: "Giáo hội",
@@ -4554,7 +4414,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 456,
+    num: 442,
     q: "Theo chủ nghĩa duy vật lịch sử, muốn tìm nguồn gốc của tư tưởng, tâm lý xã hội cần phải tìm ở trong...",
     a: "đầu óc của con người",
     b: "bản thân tư tưởng, quan điểm",
@@ -4564,7 +4424,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 457,
+    num: 443,
     q: "Theo chủ nghĩa duy vật lịch sử, về bản chất, nhà nước là...",
     a: "Của dân, do dân và vì dân",
     b: "Bộ máy tập trung quyền lực của giai cấp nắm quyền thống trị kinh tế",
@@ -4574,7 +4434,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 458,
+    num: 444,
     q: "Điền từ vào chỗ trống: Theo quan điểm duy vật lịch sử, bản chất con người là ...",
     a: "Ác",
     b: "Thiện",
@@ -4584,7 +4444,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 459,
+    num: 445,
     q: "Chọn phương án đúng nhất: Sự ra đời và tồn tại của Nhà nước nhằm...",
     a: "Điều hòa mâu thuẫn giai cấp",
     b: "Giải quyết mâu thuẫn giai cấp",
@@ -4594,7 +4454,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 460,
+    num: 446,
     q: "Chọn phương án đúng nhất: Quy luật về sự phù hợp của quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất là quy luật ... của sự phát triển xã hội.",
     a: "Đặc thù",
     b: "Duy nhất",
@@ -4604,7 +4464,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 461,
+    num: 447,
     q: "Chọn phương án đúng nhất: Quan điểm triết học nào cho rằng: Để giải thích mọi hiện tượng của đời sống tinh thần chỉ cần dựa vào các quan hệ kinh tế hiện có.",
     a: "Chủ nghĩa duy vật lịch sử",
     b: "Chủ nghĩa duy vật chất phác",
@@ -4614,7 +4474,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 462,
+    num: 448,
     q: "Quan điểm nào cho rằng ý chí, tư tưởng của con người là động lực sâu xa của lịch sử?",
     a: "Chủ nghĩa duy vật lịch sử",
     b: "Chủ nghĩa duy tâm lịch sử",
@@ -4624,7 +4484,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 463,
+    num: 449,
     q: "Theo chủ nghĩa duy vật lịch sử, sự biến đổi và phát triển của sản xuất vật chất bao giờ cũng bắt đầu từ sự biến đổi và phát triển của...",
     a: "Quan hệ sản xuất",
     b: "Lực lượng sản xuất",
@@ -4634,7 +4494,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 464,
+    num: 450,
     q: "Theo chủ nghĩa duy vật lịch sử: Mâu thuẫn biện chứng giữa nội dung vật chất và hình thức xã hội của quá trình sản xuất là mâu thuẫn giữa:",
     a: "Cơ sở hạ tầng và kiến trúc thượng tầng",
     b: "Vật chất và ý thức",
@@ -4644,7 +4504,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 465,
+    num: 451,
     q: "Chọn câu trả lời đúng theo quan điểm duy tâm về xã hội: Lực lượng sáng tạo ra và quyết định lịch sử là:",
     a: "quần chúng nhân dân",
     b: "giai cấp thống trị",
@@ -4654,7 +4514,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 466,
+    num: 452,
     q: "Tiền đề xuất phát của quan điểm duy vật lịch sử là:",
     a: "con người hiện thực",
     b: "con người trừu tượng",
@@ -4664,7 +4524,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 467,
+    num: 453,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố cơ bản nhất dẫn đến sự khác nhau về địa vị của các giai cấp trong hệ thống kinh tế - xã hội là:",
     a: "Phân công lao động xã hội",
     b: "Sở hữu tư liệu sản xuất",
@@ -4674,7 +4534,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 468,
+    num: 454,
     q: "Theo chủ nghĩa duy vật lịch sử, tệ sùng bái cá nhân nghĩa là tuyệt đối hóa vai trò của:",
     a: "Quần chúng nhân dân",
     b: "Giai cấp thống trị",
@@ -4684,7 +4544,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 469,
+    num: 455,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, đấu tranh giai cấp giữ vai trò là:",
     a: "Động lực phát triển văn hóa của xã hội",
     b: "Một trong những phương thức và động lực của sự phát triển của khoa học - kỹ thuật",
@@ -4694,7 +4554,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 470,
+    num: 456,
     q: "Theo chủ nghĩa duy vật lịch sử, lực lượng sản xuất là biểu hiện của:",
     a: "Mối quan hệ giữa con người với con người trong quá trình sản xuất",
     b: "Mối quan hệ giữa con người với tự nhiên trong quá trình sản xuất",
@@ -4704,7 +4564,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 471,
+    num: 457,
     q: "Chọn phương án SAI, theo chủ nghĩa duy vật lịch sử:",
     a: "Quan hệ sản xuất là nội dung vật chất của quá trình sản xuất",
     b: "Quan hệ sản xuất có thể tác động trở lại lực lượng sản xuất",
@@ -4714,7 +4574,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 472,
+    num: 458,
     q: "Chọn phương án SAI, theo chủ nghĩa duy vật lịch sử:",
     a: "Cơ sở hạ tầng giữ vai trò quyết định đối với kiến trúc thượng tầng",
     b: "Kiến trúc thượng tầng có thể tác động trở lại cơ sở hạ tầng",
@@ -4724,7 +4584,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 473,
+    num: 459,
     q: "Chọn phương án đúng, theo chủ nghĩa duy vật lịch sử: Tồn tại xã hội thực chất là ... của xã hội.",
     a: "Đời sống vật chất",
     b: "Đời sống tinh thần",
@@ -4734,7 +4594,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 474,
+    num: 460,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, ý thức xã hội thực chất là ... của xã hội.",
     a: "Đời sống vật chất",
     b: "Đời sống tinh thần",
@@ -4744,7 +4604,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 475,
+    num: 461,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc tồn tại xã hội?",
     a: "Điều kiện tự nhiên - hoàn cảnh địa lý",
     b: "Dân cư",
@@ -4754,7 +4614,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 476,
+    num: 462,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc ý thức xã hội?",
     a: "Tâm lý xã hội",
     b: "Phương thức sản xuất vật chất",
@@ -4764,7 +4624,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 477,
+    num: 463,
     q: "Chọn phương án SAI, theo chủ nghĩa duy vật lịch sử:",
     a: "Ý thức xã hội lạc hậu hơn tồn tại xã hội",
     b: "Ý thức xã hội có tính kế thừa trong sự phát triển của mình",
@@ -4774,7 +4634,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 478,
+    num: 464,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc ý thức xã hội?",
     a: "Tâm lý xã hội",
     b: "Quan hệ sản xuất",
@@ -4784,7 +4644,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 479,
+    num: 465,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc ý thức xã hội?",
     a: "Ý thức thẩm mỹ",
     b: "Cơ sở hạ tầng",
@@ -4794,7 +4654,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 480,
+    num: 466,
     q: "Trong các xã hội sau, xã hội nào không có giai cấp?",
     a: "Phong kiến",
     b: "Chiếm hữu nô lệ",
@@ -4804,7 +4664,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 481,
+    num: 467,
     q: "Trong các xã hội sau, xã hội nào chưa có nhà nước?",
     a: "Phong kiến",
     b: "Chiếm hữu nô lệ",
@@ -4814,7 +4674,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 482,
+    num: 468,
     q: "Theo quan niệm duy vật lịch sử: Nhà nước, về bản chất là công cụ thống trị của ...",
     a: "giai cấp thống trị",
     b: "giai cấp bị trị",
@@ -4824,7 +4684,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 483,
+    num: 469,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện vai trò quyết định của cơ sở hạ tầng đối với kiến trúc thượng tầng:",
     a: "Nhà nước là yếu tố tác động mạnh nhất tới cơ sở hạ tầng",
     b: "Hệ tư tưởng của giai cấp thống trị có vai trò quyết định",
@@ -4834,7 +4694,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 484,
+    num: 470,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện vai trò quyết định của cơ sở hạ tầng đối với kiến trúc thượng tầng:",
     a: "Nhà nước là yếu tố tác động mạnh nhất tới cơ sở hạ tầng",
     b: "Sự đấu tranh, xung đột lợi ích chính trị - xã hội có nguyên nhân sâu xa từ sự mâu thuẫn, đấu tranh giành lợi ích trong cơ sở kinh tế của xã hội",
@@ -4844,7 +4704,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 485,
+    num: 471,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện vai trò quyết định của tồn tại xã hội đối với ý thức xã hội:",
     a: "Ý thức xã hội thường lạc hậu hơn tồn tại xã hội",
     b: "Ý thức xã hội có thể vượt trước tồn tại xã hội",
@@ -4854,7 +4714,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 486,
+    num: 472,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện vai trò quyết định của tồn tại xã hội đối với ý thức xã hội:",
     a: "Ý thức xã hội thường lạc hậu hơn tồn tại xã hội",
     b: "Khi tồn tại xã hội biến đổi thì ý thức xã hội cũng biến đổi theo",
@@ -4864,7 +4724,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 487,
+    num: 473,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện tính độc lập tương đối của ý thức xã hội đối với tồn tại xã hội:",
     a: "Ý thức xã hội tác động trở lại tồn tại xã hội",
     b: "Tồn tại xã hội sinh ra ý thức xã hội",
@@ -4874,7 +4734,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 488,
+    num: 474,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc tồn tại xã hội?",
     a: "Phương thức sản xuất vật chất",
     b: "Điều kiện tự nhiên",
@@ -4884,7 +4744,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 489,
+    num: 475,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc tồn tại xã hội?",
     a: "Ý thức chính trị",
     b: "Phương thức sản xuất vật chất",
@@ -4894,7 +4754,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 490,
+    num: 476,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện tính độc lập tương đối của ý thức xã hội đối với tồn tại xã hội:",
     a: "Ý thức xã hội nảy sinh từ tồn tại xã hội",
     b: "Ý thức xã hội thường lạc hậu hơn tồn tại xã hội",
@@ -4904,7 +4764,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 491,
+    num: 477,
     q: "Theo chủ nghĩa duy vật lịch sử, một trong những nội dung biểu hiện tính độc lập tương đối của ý thức xã hội so với tồn tại xã hội:",
     a: "Ý thức xã hội nảy sinh từ tồn tại xã hội",
     b: "Khi tồn tại xã hội thay đổi thì ý thức xã hội cũng thay đổi theo",
@@ -4914,7 +4774,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 492,
+    num: 478,
     q: "Theo chủ nghĩa duy vật lịch sử: Giai cấp lãnh đạo cách mạng xã hội là giai cấp có...",
     a: "hệ tư tưởng tiến bộ",
     b: "đại diện cho xu hướng phát triển của xã hội",
@@ -4924,7 +4784,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 493,
+    num: 479,
     q: "Chọn phương án đúng nhất: Theo C. Mác và Ph. Ăngghen, đời sống ... của xã hội hình thành và phát triển trên cơ sở của đời sống ...",
     a: "tinh thần/Vật chất",
     b: "vật chất/Tinh thần",
@@ -4934,7 +4794,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 494,
+    num: 480,
     q: "Theo chủ nghĩa duy vật lịch sử: Nhân tố giữ vai trò quyết định trong lực lượng sản xuất là:",
     a: "người lao động",
     b: "công cụ sản xuất",
@@ -4944,7 +4804,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 495,
+    num: 481,
     q: "Theo chủ nghĩa duy vật lịch sử, yếu tố nào sau đây KHÔNG thuộc tồn tại xã hội?",
     a: "Ý thức khoa học",
     b: "Phương thức sản xuất vật chất",
@@ -4954,7 +4814,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 496,
+    num: 482,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, cơ sở hạ tầng và kiến trúc thượng tầng chính là mối quan hệ giữa:",
     a: "Kinh tế và kỹ thuật, công nghệ",
     b: "Kỹ thuật và văn hóa",
@@ -4964,7 +4824,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 497,
+    num: 483,
     q: "Điền cụm từ đúng nhất vào chỗ trống: Khái niệm phương thức sản xuất dùng để chỉ những ... mà con người sử dụng để tiến hành quá trình sản xuất của xã hội ở những giai đoạn lịch sử nhất định.",
     a: "Cách thức",
     b: "Hình thức",
@@ -4974,7 +4834,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 498,
+    num: 484,
     q: "Chọn phương án đúng nhất: Theo chủ nghĩa duy vật lịch sử, sự vận động, phát triển của toàn bộ đời sống xã hội, suy đến cùng có nguyên nhân từ tình trạng phát triển của:",
     a: "Nền sản xuất của xã hội",
     b: "Cơ sở hạ tầng",
@@ -4984,7 +4844,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 499,
+    num: 485,
     q: "Theo chủ nghĩa duy vật lịch sử: Yếu tố phản ánh rõ nhất trình độ phát triển của lực lượng sản xuất và thể hiện tiêu biểu trình độ con người chinh phục giới tự nhiên là:",
     a: "Người lao động",
     b: "Đối tượng lao động",
@@ -4994,7 +4854,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 500,
+    num: 486,
     q: "Theo chủ nghĩa duy vật lịch sử: Yếu tố nào KHÔNG thuộc cơ sở hạ tầng?",
     a: "Quan hệ sản xuất thống trị",
     b: "Quan hệ sản xuất tàn dư",
@@ -5004,17 +4864,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 501,
-    q: "Theo chủ nghĩa duy vật lịch sử: Yếu tố nào sau đây KHÔNG thuộc cấu trúc của hình thái kinh tế - xã hội?",
-    a: "Lực lượng sản xuất",
-    b: "Quan hệ sản xuất",
-    c: "Kiến trúc thượng tầng",
-    d: "Điều kiện tự nhiên",
-    ans: "d",
-    chapter: "ch3",
-  },
-  {
-    num: 502,
+    num: 487,
     q: "Điền cụm từ đúng nhất: Theo nghĩa hẹp, ... là việc lật đổ một chế độ chính trị đã lỗi thời và thiết lập một chế độ chính trị tiến bộ hơn của giai cấp cách mạng.",
     a: "Cách mạng xã hội",
     b: "Cách mạng khoa học và công nghệ",
@@ -5024,7 +4874,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 503,
+    num: 488,
     q: "Theo chủ nghĩa duy vật lịch sử, cách mạng xã hội giữ vai trò là một trong những ... của sự phát triển xã hội.",
     a: "Hình thức, động lực",
     b: "Phương thức, động lực",
@@ -5034,7 +4884,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 504,
+    num: 489,
     q: "Điền cụm từ đúng nhất vào chỗ trống: Theo C. Mác: Bản chất con người không phải là một cái trừu tượng cố hữu của cá nhân riêng biệt. Trong tính hiện thực của nó, bản chất con người là tổng hòa những...",
     a: "Quan hệ sản xuất",
     b: "Quan hệ xã hội",
@@ -5044,7 +4894,7 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 505,
+    num: 490,
     q: "Theo nguyên lý tồn tại xã hội quyết định ý thức xã hội, lối sống, phong tục tập quán của con người ở những vùng miền khác nhau là do:",
     a: "Bản sắc văn hóa của mỗi vùng miền",
     b: "Điều kiện kinh tế - xã hội ở mỗi vùng miền khác nhau",
@@ -5054,25 +4904,15 @@ window.SUBJECTS_DATA.triet_hoc = {
     chapter: "ch3",
   },
   {
-    num: 506,
-    q: "Chọn phương án SAI: Theo chủ nghĩa duy vật lịch sử, nhà nước...",
-    a: "Ra đời cùng sự xuất hiện của con người",
-    b: "Là sản phẩm và biểu hiện của những mâu thuẫn đối kháng giai cấp không thể điều hòa được",
-    c: "Xuất hiện và tồn tại trong một giai đoạn phát triển nhất định của xã hội loài người",
-    d: "Xuất hiện và tồn tại trong những xã hội có đối kháng giai cấp",
-    ans: "a",
-    chapter: "ch3",
-  },
-  {
-    num: 507,
+    num: 491,
     q: "Từ nguyên lý tồn tại xã hội quyết định ý thức xã hội của chủ nghĩa duy vật lịch sử, cho thấy tâm lý tiểu nông của người Việt Nam truyền thống căn bản là do:",
     a: "Bản tính cố hữu của người Việt",
     b: "Bị đế quốc, phong kiến nhiều thế kỷ áp bức, bóc lột",
     c: "Phương thức sản xuất tiểu nông, manh mún, lạc hậu",
-    d: "Tất cả các phương án đều sai # GỢI Ý ĐÁP ÁN | Câu 1 | A | Câu 16 | A | Câu 31 | B | Câu 46 | A | | --- | --- | --- | --- | --- | --- | --- | --- | | Câu 2 | B | Câu 17 | B | Câu 32 | C | Câu 47 | B | | Câu 3 | D | Câu 18 | A | Câu 33 | D | Câu 48 | C | | Câu 4 | A | Câu 19 | A | Câu 34 | B | Câu 49 | A | | Câu 5 | D | Câu 20 | C | Câu 35 | C | Câu 50 | C | | Câu 6 | A | Câu 21 | B | Câu 36 | A | Câu 51 | A | | Câu 7 | A | Câu 22 | D | Câu 37 | B | Câu 52 | A | | Câu 8 | A | Câu 23 | B | Câu 38 | A | Câu 53 | B | | Câu 9 | C | Câu 24 | C | Câu 39 | A | Câu 54 | A | | Câu 10 | A | Câu 25 | B | Câu 40 | C | Câu 55 | C | | Câu 11 | D | Câu 26 | A | Câu 41 | B | Câu 56 | C | | Câu 12 | A | Câu 27 | B | Câu 42 | D | Câu 57 | C | | Câu 13 | C | Câu 28 | B | Câu 43 | D | Câu 58 | C | | Câu 14 | B | Câu 29 | B | Câu 44 | D | Câu 59 | C | | Câu 15 | A | Câu 30 | B | Câu 45 | B | Câu 60 | B | | | | | | | | | | | Câu 61 | A | Câu 86 | A | Câu 111 | C | Câu 136 | D | | Câu 62 | D | Câu 87 | A | Câu 112 | D | Câu 137 | C | | Câu 63 | B | Câu 88 | B | Câu 113 | A | Câu 138 | B | | Câu 64 | B | Câu 89 | A | Câu 114 | A | Câu 139 | C | | Câu 65 | A | Câu 90 | A | Câu 115 | A | Câu 140 | D | | Câu 66 | D | Câu 91 | B | Câu 116 | D | Câu 141 | D | | Câu 67 | A | Câu 92 | B | Câu 117 | D | Câu 142 | C | | Câu 68 | B | Câu 93 | A | Câu 118 | D | Câu 143 | B | | Câu 69 | A | Câu 94 | D | Câu 119 | A | Câu 144 | B | | Câu 70 | B | Câu 95 | A | Câu 120 | C | Câu 145 | C | | Câu 71 | B | Câu 96 | C | Câu 121 | B | Câu 146 | D | | Câu 72 | C | Câu 97 | C | Câu 122 | B | Câu 147 | A | | Câu 73 | D | Câu 98 | D | Câu 123 | C | Câu 148 | B | | Câu 74 | D | Câu 99 | C | Câu 124 | A | Câu 149 | C | | Câu 75 | B | Câu 100 | A | Câu 125 | D | Câu 150 | C | | Câu 76 | D | Câu 101 | D | Câu 126 | A | Câu 151 | B | | Câu 77 | A | Câu 102 | D | Câu 127 | B | Câu 152 | A | | Câu 78 | B | Câu 103 | B | Câu 128 | C | Câu 153 | C | | Câu 79 | B | Câu 104 | D | Câu 129 | A | Câu 154 | A | | Câu 80 | C | Câu 105 | C | Câu 130 | A | Câu 155 | B | | Câu 81 | A | Câu 106 | C | Câu 131 | A | Câu 156 | C | | Câu 82 | C | Câu 107 | A | Câu 132 | C | Câu 157 | B | | Câu 83 | B | Câu 108 | B | Câu 133 | B | Câu 158 | D | | --- | --- | --- | --- | --- | --- | --- | --- | | Câu 84 | A | Câu 109 | B | Câu 134 | C | Câu 159 | B | | Câu 85 | B | Câu 110 | C | Câu 135 | A | Câu 160 | B | | | | | | | | | | | Câu 161 | D | Câu 166 | C | Câu 171 | B | Câu 176 | A | | Câu 162 | D | Câu 167 | B | Câu 172 | C | Câu 177 | C | | Câu 163 | A | Câu 168 | A | Câu 173 | D | Câu 178 | A | | Câu 164 | C | Câu 169 | D | Câu 174 | A | Câu 179 | A | | Câu 165 | B | Câu 170 | A | Câu 175 | A | Câu 180 | D | | | | | | | | | | | Câu 181 | D | Câu 183 | A | Câu 185 | B | Câu 187 | A | | Câu 182 | D | Câu 184 | B | Câu 186 | B | Câu 188 | C |",
+    d: "Tất cả các phương án đều sai",
     ans: "c",
     chapter: "ch3",
-  }
+  },
 ],
   chapters: {
     "ch1": "Chương 1: Khái lược về triết học",

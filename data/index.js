@@ -6,5 +6,5 @@ const SUBJECTS = (window.SUBJECTS_DATA && window.SUBJECTS_DATA.triet_hoc)
   ? (window.SUBJECTS_DATA.pldc ? window.SUBJECTS_DATA : { triet_hoc: window.SUBJECTS_DATA.triet_hoc })
   : (window.SUBJECTS_DATA || {});
 
-const SUBJECT_ORDER = ['triet_hoc', 'ktct', 'pldc'];
-const DEFAULT_SUBJECT = 'triet_hoc';
+const SUBJECT_ORDER = ['ktct', 'triet_hoc', 'csdl', 'pldc'];
+const DEFAULT_SUBJECT = 'ktct';

@@ -2,7 +2,7 @@
 let batchSize = 25, rangeIdx = 0, shuffleQ = false, shuffleA = false, randomMode = false;
 let quizQs = [], cur = 0, answered = false, okCount = 0, badCount = 0;
 let history = [];
-let currentSubject = 'triet_hoc';
+let currentSubject = 'ktct';
 let splitByChapter = false;
 let currentChapter = null;
 
@@ -269,7 +269,7 @@ function startQuiz() {
   }
 
   quizQs = batch.map(q => {
-    let opts = [{ key: 'a', text: q.a }, { key: 'b', text: q.b }, { key: 'c', text: q.c }, { key: 'd', text: q.d }];
+    let opts = ['a', 'b', 'c', 'd', 'e'].filter(k => q[k]).map(k => ({ key: k, text: q[k] }));
     if (shuffleA) opts = shuffle(opts);
     return { num: q.num, question: q.q, opts, ans: q.ans };
   });
@@ -296,17 +296,29 @@ function renderQ() {
   $('sc-bad').textContent = badCount;
   $('pbar').style.width = ((pos - 1) / total * 100) + '%';
   $('q-text').textContent = q.question;
+  // Multi-answer questions (ans like "bd"): pick that many options, then grade.
+  const need = q.ans.length;
+  $('q-hint').textContent = need > 1 ? `Chọn ${need} đáp án` : '';
+  $('q-hint').style.display = need > 1 ? '' : 'none';
 
-  const posLabels = ['A', 'B', 'C', 'D'];
+  const posLabels = ['A', 'B', 'C', 'D', 'E'];
   const container = $('options');
   container.innerHTML = '';
+  const picked = [];
   q.opts.forEach((opt, i) => {
     const btn = document.createElement('button');
     btn.className = 'opt-btn';
     btn.dataset.key = opt.key;
     btn.style.animationDelay = (i * 0.06) + 's';
-    btn.innerHTML = `<span class="opt-key">${posLabels[i]}</span><span class="opt-text">${opt.text}</span>`;
-    btn.addEventListener('click', () => answer(opt.key, q));
+    btn.innerHTML = `<span class="opt-key">${posLabels[i]}</span><span class="opt-text">${escHtml(opt.text)}</span>`;
+    btn.addEventListener('click', () => {
+      if (answered) return;
+      if (need === 1) return answer([opt.key], q);
+      const at = picked.indexOf(opt.key);
+      if (at >= 0) picked.splice(at, 1); else picked.push(opt.key);
+      btn.classList.toggle('state-picked', at < 0);
+      if (picked.length === need) answer(picked, q);
+    });
     container.appendChild(btn);
   });
 
@@ -316,36 +328,35 @@ function renderQ() {
 }
 
 // ── Answer ──
+// selected: array of option keys; q.ans: string of correct keys ("b" or "bd")
 function answer(selected, q) {
   if (answered) return;
   answered = true;
 
-  const isOk = selected === q.ans;
+  const correct = q.ans.split('');
+  const isOk = selected.length === correct.length && selected.every(k => correct.includes(k));
   if (isOk) okCount++; else badCount++;
   $('sc-ok').textContent = okCount;
   $('sc-bad').textContent = badCount;
 
-  const selectedOpt = q.opts.find(o => o.key === selected);
-  const correctOpt = q.opts.find(o => o.key === q.ans);
-
+  const textOf = k => (q.opts.find(o => o.key === k) || {}).text || '';
   history.push({
     num: q.num,
     question: q.question,
-    selectedKey: selected,
-    selectedText: selectedOpt ? selectedOpt.text : '',
-    correctKey: q.ans,
-    correctText: correctOpt ? correctOpt.text : '',
+    picks: selected.map(k => ({ text: textOf(k), ok: correct.includes(k) })),
+    missed: correct.filter(k => !selected.includes(k)).map(textOf),
     isOk
   });
 
   $('options').querySelectorAll('.opt-btn').forEach(btn => {
     btn.disabled = true;
+    btn.classList.remove('state-picked');
     const keyEl = btn.querySelector('.opt-key');
     const key = btn.dataset.key;
-    if (key === q.ans) {
+    if (correct.includes(key)) {
       btn.classList.add('state-correct');
       keyEl.textContent = '✓';
-    } else if (key === selected && !isOk) {
+    } else if (selected.includes(key)) {
       btn.classList.add('state-wrong');
       keyEl.textContent = '✗';
     }
@@ -392,19 +403,14 @@ function buildReviewList(filter) {
     div.style.animationDelay = (idx * 0.03) + 's';
     div.style.animation = 'fadeUp .25s ease both';
 
-    let answersHtml = `
-      <div class="rev-ans-row ${item.isOk ? 'row-ok' : 'row-bad'}">
-        <span class="rev-text">${escHtml(item.selectedText)}</span>
-        <span class="rev-icon">${item.isOk ? '✓' : '✗'}</span>
+    const row = (text, ok) => `
+      <div class="rev-ans-row ${ok ? 'row-ok' : 'row-bad'}">
+        <span class="rev-text">${escHtml(text)}</span>
+        <span class="rev-icon">${ok ? '✓' : '✗'}</span>
       </div>`;
-
-    if (!item.isOk) {
-      answersHtml += `
-      <div class="rev-ans-row row-ok">
-        <span class="rev-text">${escHtml(item.correctText)}</span>
-        <span class="rev-icon">✓</span>
-      </div>`;
-    }
+    // what was picked (✓/✗ each), then any correct options that were missed
+    let answersHtml = item.picks.map(p => row(p.text, p.ok)).join('')
+      + item.missed.map(t => row(t, true)).join('');
 
     div.innerHTML = `
       <div class="rev-top">

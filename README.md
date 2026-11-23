@@ -1,16 +1,18 @@
 # Test Practice PTIT
 
 > Trắc nghiệm PTIT — multi-subject. Currently ships:
-> - **Triết học Mác - Lênin** (default) — 481 câu, chia 3 chương
-> - **Kinh tế chính trị Mác - Lênin** — 463 câu, chia 6 chương
+> - **Kinh tế chính trị Mác - Lênin** (default) — 463 câu, chia 6 chương
+> - **Triết học Mác - Lênin** — 481 câu, chia 3 chương
+> - **Cơ sở dữ liệu** (thầy Hóa) — 224 câu
 > - **Pháp Luật Đại Cương** — 421 câu
 
 ## Tính năng
 
-- Multi-môn: dropdown chọn Triết, KTCT hoặc PLĐC
+- Multi-môn: dropdown chọn KTCT, Triết, CSDL hoặc PLĐC
 - Chế độ: Theo thứ tự / Ngẫu nhiên
 - Số câu: 25 / 50 / 100 / Tất cả / **Theo chương** (Triết, KTCT)
 - Xáo thứ tự câu hỏi / đáp án
+- Câu có 2–5 phương án; câu nhiều đáp án đúng ("Chọn 2 đáp án") phải chọn đủ và trúng hết mới tính đúng
 - Light/dark mode toggle
 - Review chi tiết sau khi làm bài (lọc Đúng/Sai)
 
@@ -25,10 +27,13 @@ data/
   pldc.js               # Pháp Luật Đại Cương questions
   triet_hoc.js          # Triết học questions (with chapter field on each)
   ktct.js               # Kinh tế chính trị questions (with chapter field on each)
+  csdl.js               # Cơ sở dữ liệu questions
 scripts/
   generate_quiz.py      # PDF → data/<subject>.js (subject object form)
   parse_triet_hoc.py    # Mistral OCR markdown → data/triet_hoc.js
   parse_ktct.py         # Ngân-hàng-KTCTML.pdf → data/ktct.js
+  parse_csdl.py         # 240_cau_li_thuyet_CSDL_HÓA.pdf (red = answer) → scripts/csdl_raw.json
+  build_csdl.py         # csdl_raw.json + dedupe/OCR/answer fixes → data/csdl.js
   parse_pdf.py          # older text-only parser
 question/
   430_questions.csv     # legacy CSV
@@ -63,6 +68,12 @@ window.SUBJECTS_DATA.my_subject = {
 ```
 
 App sẽ tự động hiện nút **"Theo chương"** trong Số câu.
+
+## Số phương án và câu nhiều đáp án
+
+- Phương án là các trường `a`–`e`; chỉ những trường có giá trị mới được hiển thị (2–5 phương án).
+- `ans` có thể gồm nhiều chữ cái, ví dụ `ans: "bd"`: app hiện "Chọn 2 đáp án" và chỉ tính đúng khi chọn đúng cả hai.
+- Câu hỏi/phương án được hiển thị nguyên dạng (giữ xuống dòng, không parse HTML), nên có thể chứa bảng dữ liệu, SQL, XML.
 
 ## Cập nhật câu hỏi
 

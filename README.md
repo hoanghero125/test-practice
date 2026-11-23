@@ -1,14 +1,15 @@
 # Test Practice PTIT
 
 > Trắc nghiệm PTIT — multi-subject. Currently ships:
-> - **Triết học Mác - Lênin** (default) — 506 câu, chia 3 chương
+> - **Triết học Mác - Lênin** (default) — 481 câu, chia 3 chương
+> - **Kinh tế chính trị Mác - Lênin** — 463 câu, chia 6 chương
 > - **Pháp Luật Đại Cương** — 421 câu
 
 ## Tính năng
 
-- Multi-môn: dropdown chọn Triết hoặc PLĐC
+- Multi-môn: dropdown chọn Triết, KTCT hoặc PLĐC
 - Chế độ: Theo thứ tự / Ngẫu nhiên
-- Số câu: 25 / 50 / 100 / Tất cả / **Theo chương** (chỉ Triết)
+- Số câu: 25 / 50 / 100 / Tất cả / **Theo chương** (Triết, KTCT)
 - Xáo thứ tự câu hỏi / đáp án
 - Light/dark mode toggle
 - Review chi tiết sau khi làm bài (lọc Đúng/Sai)
@@ -23,9 +24,11 @@ data/
   index.js              # Aggregator: defines SUBJECTS, SUBJECT_ORDER, DEFAULT_SUBJECT
   pldc.js               # Pháp Luật Đại Cương questions
   triet_hoc.js          # Triết học questions (with chapter field on each)
+  ktct.js               # Kinh tế chính trị questions (with chapter field on each)
 scripts/
   generate_quiz.py      # PDF → data/<subject>.js (subject object form)
   parse_triet_hoc.py    # Mistral OCR markdown → data/triet_hoc.js
+  parse_ktct.py         # Ngân-hàng-KTCTML.pdf → data/ktct.js
   parse_pdf.py          # older text-only parser
 question/
   430_questions.csv     # legacy CSV

@@ -47,6 +47,7 @@ function getRanges(bs) {
       if (q.chapter && !seen.has(q.chapter)) {
         const count = qs.filter(x => x.chapter === q.chapter).length;
         ranges.push({ start: 0, end: 0, key: q.chapter, label: `${titles[q.chapter] || q.chapter}  (${count} câu)` });
+        seen.add(q.chapter);
       }
     }
     return ranges;

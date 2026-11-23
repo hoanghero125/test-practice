@@ -1,6 +1,6 @@
 window.SUBJECTS_DATA = window.SUBJECTS_DATA || {};
 window.SUBJECTS_DATA.csdl = {
-  name: "Cơ sở dữ liệu",
+  name: "Cơ sở dữ liệu (Thầy Hóa)",
   short: "CSDL",
   questions: [
   {

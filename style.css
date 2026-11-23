@@ -112,7 +112,8 @@ body{
   cursor:pointer;appearance:none;transition:border-color .15s;
 }
 .styled-select select:focus{outline:none;border-color:var(--gold)}
-.styled-select select option{background:var(--surface2)}
+.styled-select select option{background:var(--surface2);color:var(--text)}
+.styled-select select optgroup{background:var(--surface2);color:var(--gold);font-style:normal;font-weight:700}
 .styled-select::after{
   content:'';position:absolute;right:14px;top:50%;transform:translateY(-50%);
   width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;

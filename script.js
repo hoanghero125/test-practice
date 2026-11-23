@@ -98,11 +98,14 @@ function initSubjects() {
     : Object.keys(SUBJECTS);
   const def = (typeof DEFAULT_SUBJECT !== 'undefined') ? DEFAULT_SUBJECT : order[0];
 
-  sel.innerHTML = order.map(k => {
+  const optionHtml = k => {
     const s = SUBJECTS[k];
     const n = s && s.questions ? s.questions.length : 0;
     return `<option value="${k}">${s ? s.name : k}${n ? '' : ' (chưa có dữ liệu)'}</option>`;
-  }).join('');
+  };
+  sel.innerHTML = (typeof SUBJECT_GROUPS !== 'undefined')
+    ? SUBJECT_GROUPS.map(g => `<optgroup label="${g.label}">${g.subjects.map(optionHtml).join('')}</optgroup>`).join('')
+    : order.map(optionHtml).join('');
 
   // Default if available, else first that has data
   const hasData = order.filter(k => SUBJECTS[k] && SUBJECTS[k].questions.length > 0);

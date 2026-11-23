@@ -8,7 +8,7 @@
 
 ## Tính năng
 
-- Multi-môn: dropdown chọn KTCT, Triết, CSDL hoặc PLĐC
+- Multi-môn: dropdown nhóm theo năm — **Năm 3**: KTCT, CSDL · **Năm 2**: Triết, PLĐC
 - Chế độ: Theo thứ tự / Ngẫu nhiên
 - Số câu: 25 / 50 / 100 / Tất cả / **Theo chương** (Triết, KTCT)
 - Xáo thứ tự câu hỏi / đáp án
@@ -23,7 +23,7 @@ index.html              # Single-page app, 3 screens (home, quiz, result)
 style.css               # All styling, dark/light theme
 script.js               # Quiz logic, state, rendering
 data/
-  index.js              # Aggregator: defines SUBJECTS, SUBJECT_ORDER, DEFAULT_SUBJECT
+  index.js              # Aggregator: defines SUBJECTS, SUBJECT_GROUPS (dropdown groups), DEFAULT_SUBJECT
   pldc.js               # Pháp Luật Đại Cương questions
   triet_hoc.js          # Triết học questions (with chapter field on each)
   ktct.js               # Kinh tế chính trị questions (with chapter field on each)
@@ -45,7 +45,7 @@ question/
 1. Drop the source PDF in repo root
 2. Run: `python scripts/generate_quiz.py --subject <key> --pdf <file.pdf> --name "Tên môn" --short "Short"`
 3. Add `<script src="data/<key>.js"></script>` to `index.html` BEFORE `data/index.js`
-4. Add the key to `SUBJECT_ORDER` in `data/index.js`
+4. Add the key to a group in `SUBJECT_GROUPS` in `data/index.js`
 
 ## Thêm chapter vào môn mới
 

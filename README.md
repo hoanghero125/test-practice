@@ -12,7 +12,7 @@
 - Chế độ: Theo thứ tự / Ngẫu nhiên
 - Số câu: 25 / 50 / 100 / Tất cả / **Theo chương** (Triết, KTCT)
 - Xáo thứ tự câu hỏi / đáp án
-- Câu có 2–5 phương án; câu nhiều đáp án đúng ("Chọn 2 đáp án") phải chọn đủ và trúng hết mới tính đúng
+- Câu có 2–5 phương án; câu nhiều đáp án đúng ("Chọn 2 đáp án"): chọn/bỏ chọn tự do, bấm **Xác nhận** để chấm, chỉ đúng khi chọn trúng tất cả và không thừa
 - Light/dark mode toggle
 - Review chi tiết sau khi làm bài (lọc Đúng/Sai)
 
@@ -72,7 +72,7 @@ App sẽ tự động hiện nút **"Theo chương"** trong Số câu.
 ## Số phương án và câu nhiều đáp án
 
 - Phương án là các trường `a`–`e`; chỉ những trường có giá trị mới được hiển thị (2–5 phương án).
-- `ans` có thể gồm nhiều chữ cái, ví dụ `ans: "bd"`: app hiện "Chọn 2 đáp án" và chỉ tính đúng khi chọn đúng cả hai.
+- `ans` có thể gồm nhiều chữ cái, ví dụ `ans: "bd"`: app hiện "Chọn 2 đáp án", người dùng chọn/bỏ chọn rồi bấm "Xác nhận"; chỉ tính đúng khi tập đã chọn đúng bằng tập đáp án.
 - Câu hỏi/phương án được hiển thị nguyên dạng (giữ xuống dòng, không parse HTML), nên có thể chứa bảng dữ liệu, SQL, XML.
 
 ## Cập nhật câu hỏi

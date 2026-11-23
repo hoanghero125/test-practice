@@ -235,6 +235,7 @@ body{
 }
 .next-btn.show{display:block;animation:fadeUp .2s ease}
 .next-btn:hover{background:var(--gold-glow);border-color:var(--gold)}
+.next-btn:disabled{opacity:.4;cursor:not-allowed;background:transparent;border-color:var(--border2)}
 
 .back-link{
   background:none;border:none;color:var(--text-muted);font-family:'Be Vietnam Pro',sans-serif;

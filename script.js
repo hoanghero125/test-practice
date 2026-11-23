@@ -296,7 +296,7 @@ function renderQ() {
   $('sc-bad').textContent = badCount;
   $('pbar').style.width = ((pos - 1) / total * 100) + '%';
   $('q-text').textContent = q.question;
-  // Multi-answer questions (ans like "bd"): pick that many options, then grade.
+  // Multi-answer questions (ans like "bd"): toggle options freely, grade on "Xác nhận".
   const need = q.ans.length;
   $('q-hint').textContent = need > 1 ? `Chọn ${need} đáp án` : '';
   $('q-hint').style.display = need > 1 ? '' : 'none';
@@ -305,6 +305,18 @@ function renderQ() {
   const container = $('options');
   container.innerHTML = '';
   const picked = [];
+  const submit = $('btn-submit');
+  const refreshSubmit = () => {
+    submit.disabled = picked.length === 0;
+    submit.textContent = `Xác nhận (${picked.length}/${need})`;
+  };
+  submit.className = need > 1 ? 'next-btn show' : 'next-btn';
+  submit.onclick = () => {
+    if (answered || picked.length === 0) return;
+    submit.className = 'next-btn';
+    answer(picked, q);
+  };
+  refreshSubmit();
   q.opts.forEach((opt, i) => {
     const btn = document.createElement('button');
     btn.className = 'opt-btn';
@@ -317,7 +329,7 @@ function renderQ() {
       const at = picked.indexOf(opt.key);
       if (at >= 0) picked.splice(at, 1); else picked.push(opt.key);
       btn.classList.toggle('state-picked', at < 0);
-      if (picked.length === need) answer(picked, q);
+      refreshSubmit();
     });
     container.appendChild(btn);
   });
